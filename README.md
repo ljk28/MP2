@@ -1,6 +1,6 @@
 # Newcastle Story Game
 
-<p style="text-align: center"><img src="assets/images/storygame.png" alt="logo" width="300" height="300" text-align="right"></p>
+<p style="text-align: center"><img src="assets/images/final logo.png" alt="logo" width="300" height="300" text-align="right"></p>
 
 
 This is a game inspired by Enid Blyton's "famous five" and other 'choose your own adventure' books.
