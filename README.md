@@ -7,6 +7,13 @@ This is a game inspired by Enid Blyton's "famous five" and other 'choose your ow
 
 https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure
 
+# Contents 
+1. [Rationale](rationale)
+2. [Extra-features](extra-features)
+3. [User-design/experience](user-design/experience)
+4. [Development](development-of-logo)
+5. [Layout](layout)
+6. [Colour-scheme](colour-scheme)
 ---
 
 ## Rationale
@@ -17,4 +24,8 @@ the game will be fully interactive with buttons and images to be revealed depend
 To add sound effects hidden in a loop or even music would be an extra bonus. 
 
 
+#### User-design/Experience
 
+#### Layout
+
+#### Colour-scheme
