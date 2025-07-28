@@ -1,7 +1,7 @@
 #logo {
     display: flex;
     justify-content: center; 
-  background: url("assets/images/final\ logo.png");
+  background: url("../images/final-logo.png");
   background-repeat: no-repeat;
   background-size: auto;
 }
