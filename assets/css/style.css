@@ -15,5 +15,11 @@ details {
   color: #ffffff;
   display: grid;
   justify-content: center;
-  font-family: fantasy;
+  font-family: Macondo-regular;
+}
+
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }

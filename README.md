@@ -36,6 +36,13 @@ Fully responsive
 #### Colour Scheme
 <img src="assets/documentation/screenshots/mp2.png">
 
+### Fonts
+For The logo two were used :
+Engravers Old English and Obra letra. Both of these font styles were found within the CANVA platform. 
+For the writing and buttons and text, only one 
+https://fonts.google.com/selection
+Macondo-Regular
+This was installed onto my computer so no need to link it in the style sheet or embed code.
 images used
 background -- 
 Image by <a href="https://pixabay.com/users/marcosantiago-5154646/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Marco Santiago</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Pixabay</a>Image by Marco Santiago from Pixabay
