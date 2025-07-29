@@ -9,3 +9,11 @@ body {
   background-size: auto;
   justify-self: center;
 }
+
+
+details {
+  color: #ffffff;
+  display: grid;
+  justify-content: center;
+  font-family: fantasy;
+}
