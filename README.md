@@ -35,3 +35,7 @@ The website will consist of one page and keep CSS hidden values to achieve this.
 Fully responsive 
 #### Colour Scheme
 <img src="assets/documentation/screenshots/mp2.png">
+
+images used
+background -- 
+Image by <a href="https://pixabay.com/users/marcosantiago-5154646/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Marco Santiago</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Pixabay</a>
