@@ -16,10 +16,24 @@ details {
   display: grid;
   justify-content: center;
   font-family: Macondo-regular;
+  font-size: xx-large;
 }
 
 .macondo-regular {
   font-family: "Macondo", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+/* The below css code is from MDN web docs and I changed the font size and added the "swords" emoji for the content value...
+https://developer.mozilla.org/en-US/docs/Web/CSS/::marker
+https://symbl.cc/en/search/?q=sword
+instructions for this were taken from ...
+https://www.shecodes.io/athena/39607-how-to-add-emojis-on-a-website-using-html-and-css
+*/
+
+
+details ::marker {
+content: "⚔";
+font-size: xx-large;
 }
