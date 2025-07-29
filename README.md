@@ -23,13 +23,13 @@ A tourist company wants to use a story based game to introduce their customers t
 
 
 #### User Story 2
-Many international students visit the city each year to study and work. Various local groups would like to engage this base by having a platform to show local culture.
+Many international students visit the city each year to study and work. Various local groups would like to engage this base by having a platform to showcase local culture.
 
 #### User Story 3
-A school teacher wants to help the children learn about medival history and wants a simple to use game to reinforce lessons in the class.
+A school teacher wants to help the children learn about medieval history and wants a simple to use game to reinforce lessons in the class.
 
 #### User-design/Experience
-The website will consist of one page and keep CSS hidden values to ahieve this.
+The website will consist of one page and keep CSS hidden values to achieve this.
 
 #### Layout
 Fully responsive 
