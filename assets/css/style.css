@@ -16,6 +16,10 @@ details {
   display: grid;
   justify-content: center;
   font-family: Macondo-regular;
+  font-size: x-large;
+}
+
+summary {
   font-size: xx-large;
 }
 
@@ -32,8 +36,11 @@ instructions for this were taken from ...
 https://www.shecodes.io/athena/39607-how-to-add-emojis-on-a-website-using-html-and-css
 */
 
-
 details ::marker {
 content: "⚔";
+color: #ffffff;
 font-size: xx-large;
 }
+
+/* This helped to correctly place text in the right place */ 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
