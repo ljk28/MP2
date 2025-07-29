@@ -1,7 +1,11 @@
+body {
+  background-color: #000000;
+}
+
 #logo {
     display: flex;
-    justify-content: center; 
   background: url("../images/final-logo.png");
   background-repeat: no-repeat;
   background-size: auto;
+  justify-self: center;
 }

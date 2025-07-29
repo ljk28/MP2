@@ -38,4 +38,14 @@ Fully responsive
 
 images used
 background -- 
-Image by <a href="https://pixabay.com/users/marcosantiago-5154646/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Marco Santiago</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Pixabay</a>
+Image by <a href="https://pixabay.com/users/marcosantiago-5154646/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Marco Santiago</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2335880">Pixabay</a>Image by Marco Santiago from Pixabay
+
+Image by <a href="https://pixabay.com/users/joelfazhari-16466931/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6976024">Joel Fazhari</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6976024">Pixabay</a>
+https://pixabay.com/photos/swords-medieval-blades-historic-6976024/
+
+Image by Joel Fazhari from Pixabay
+
+Image by OpenClipart-Vectors from Pixabay
+
+https://pixabay.com/vectors/armor-armour-horse-horseback-1299032/
+Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1299032">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1299032">Pixabay</a>
