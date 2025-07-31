@@ -39,7 +39,7 @@ https://www.shecodes.io/athena/39607-how-to-add-emojis-on-a-website-using-html-a
 details ::marker {
 content: "⚔";
 color: #ffffff;
-font-size: xx-large;
+font-size: 3rem;
 }
 
 /* This helped to correctly place text in the right place
