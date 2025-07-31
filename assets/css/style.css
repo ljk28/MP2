@@ -44,3 +44,28 @@ font-size: xx-large;
 
 /* This helped to correctly place text in the right place
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details  */ 
+
+/* This website 
+helped to size the castle button
+https://www.geeksforgeeks.org/html/html-emojis/ */
+
+#castle {
+  font-display: center;
+  display: grid;
+  font-size: 10em;
+}
+
+#crown {
+  font-size: 8em;
+}
+
+#horse {
+  font-size: 8em;
+}
+
+#castle2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
