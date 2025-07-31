@@ -49,23 +49,32 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details  */
 helped to size the castle button
 https://www.geeksforgeeks.org/html/html-emojis/ */
 
+#play-game {
+  display: flex;
+  justify-content: center;
+}
+
 #castle {
-  font-display: center;
-  display: grid;
-  font-size: 10em;
+ font-size: 7rem;
+ background-color: #000000;
 }
 
 #crown {
-  font-size: 8em;
+  font-size: 7rem;
+  background-color: #000000;
 }
 
 #horse {
-  font-size: 8em;
+  font-size: 7rem;
+  background-color: #000000;
 }
 
-#castle2 {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  color: #000000;
+#thumbs-up {
+  font-size: 7rem;
+  background-color: #000000;
+}
+
+#thumbs-down {
+  font-size: 7rem;
+  background-color: #000000;
 }
