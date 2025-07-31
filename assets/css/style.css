@@ -78,3 +78,11 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   font-size: 7rem;
   background-color: #000000;
 }
+
+#play-new {
+  font-size: 5rem;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  font-family: Macondo-regular;
+}
