@@ -1,5 +1,7 @@
+
 body {
   background-color: #000000;
+  cursor: pointer;
 }
 
 #logo {
@@ -8,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   justify-self: center;
+  size: auto;
 }
 
 
@@ -17,6 +20,7 @@ details {
   justify-content: center;
   font-family: Macondo-regular;
   font-size: x-large;
+  size: auto;
 }
 
 summary {
@@ -40,6 +44,7 @@ details ::marker {
 content: "⚔";
 color: #ffffff;
 font-size: 3rem;
+size: auto;
 }
 
 /* This helped to correctly place text in the right place
@@ -52,6 +57,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
 #play-game {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 #castle {
