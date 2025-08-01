@@ -2,12 +2,12 @@
 body {
   
   background-color: #000000;
-  cursor: none;
+  cursor: pointer;
 }
 
 #logo {
     display: flex;
-  background: url("../images/final-logo.png");
+  background: url("images/final-logo.png");
   background-repeat: no-repeat;
   background-size: auto;
   justify-self: center;
@@ -92,20 +92,5 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   color: #ffffff;
   justify-content: center;
   font-family: Macondo-regular;
-  cursor: none;
+  cursor: pointer;
 }
-
-#mouse {
-  cursor: none;
-}
-
-.cursor {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 20px;
-        height: 20px;
-        background-color: green;
-        border-radius: 50%;
-        pointer-events: none; /* Ensure the custom cursor doesn't interfere with content */
-      }
