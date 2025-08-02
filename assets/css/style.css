@@ -5,6 +5,22 @@ body {
   cursor: pointer;
 }
 
+button {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: "Macondo-regular";
+  justify-content: center;
+  align-items: center;
+  font-display: center;
+}
+
+#music {
+  font-size: 1rem;
+}
 #logo {
     display: flex;
   background: url("images/final-logo.png");
@@ -58,7 +74,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
 #play-game {
   display: flex;
   justify-content: center;
-  cursor: none;
+  cursor: pointer;
 }
 
 #castle {
@@ -91,6 +107,15 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   display: flex;
   color: #ffffff;
   justify-content: center;
-  font-family: Macondo-regular;
+  font-family: "Macondo-regular";
   cursor: pointer;
+}
+
+/* Below is the css for the gamepage */
+
+.text-box-1 {
+  visibility: visible;
+  color: #ffffff;
+  font-family: "Macondo-regular";
+  font-size: 2rem;
 }

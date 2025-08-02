@@ -4,4 +4,4 @@ document.getElementById("castle").onclick = function () {
 
 /* The above code was taken from and changed to fit this project https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/ */
 
-
+audioElement.play();
