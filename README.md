@@ -66,6 +66,9 @@ Here are the various designs of the logo and favicons...
 <img src="assets/documentation/logos-favicons/29.png">
 <img src="assets/documentation/logos-favicons/30.png">
 <img src="assets/documentation/logos-favicons/31.png">
+<img src="assets/documentation/logos-favicons/favicon-1.png">
+<img src="assets/documentation/logos-favicons/favicon-2.png">
+
 
 This was the final design and chosen logo...
 <img src="assets/documentation/logos-favicons/final-logo.png">
