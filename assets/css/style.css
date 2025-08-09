@@ -80,29 +80,35 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
 #castle {
  font-size: 7rem;
  background-color: #000000;
+ flex-shrink: auto;
 }
 
 #crown {
   font-size: 7rem;
   background-color: #000000;
+  flex-shrink: auto;
 }
 
 #horse {
+  flex-shrink: auto;
   font-size: 7rem;
   background-color: #000000;
 }
 
 #thumbs-up {
+  flex-shrink: auto;
   font-size: 7rem;
   background-color: #000000;
 }
 
 #thumbs-down {
+  flex-shrink: auto;
   font-size: 7rem;
   background-color: #000000;
 }
 
 #play-new {
+  flex-shrink: auto;
   font-size: 5rem;
   display: flex;
   color: #ffffff;
@@ -123,3 +129,4 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
 #knight1 {
   flex-shrink: auto;
 }
+
