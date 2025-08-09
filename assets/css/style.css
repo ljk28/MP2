@@ -119,3 +119,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   font-family: "Macondo-regular";
   font-size: 2rem;
 }
+
+#knight1 {
+  flex-shrink: auto;
+}
