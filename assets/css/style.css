@@ -116,6 +116,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
 
 #play-new {
   flex-shrink: auto;
+  flex-wrap: wrap;
   font-size: 5rem;
   display: flex;
   color: #ffffff;
@@ -135,6 +136,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
 
 #knight1 {
   flex-shrink: auto;
+  flex-wrap: wrap;
   max-width: 100%;
 }
 
