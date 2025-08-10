@@ -106,3 +106,26 @@ Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_sourc
 
 ### Sizing the buttons 
 The buttons I wanted to be icons to make it more fun for the user. There was an issue with trying to make them responsive on smaller screens. Fortunately, flex-wrap was the perfect answer to this issue. 
+
+The buttons themselves are actally emojis... 
+
+<img src="assets/documentation/screenshots/buttons.jpeg">
+<ul>
+<li>A Castle</li>
+<li>Thumbs up</li>
+<li>Thumbs down</li>
+<li>Horse/ Carousel</li>
+<li>A Crown</li>
+</ul>
+
+## The Plot/Storyline
+### Brave Knight saves king from certain death
+
+Using historical and local landmarks ans culture to allow the user to navigate and learn facts about the city as they go. 
+
+They begin by choosing their speech, their small army and their choice of weapons. The player then has to choose how long they want to play for. The duration is set by using the buttons provided near the bottom of the screen.
+
+A reset button has been provided to bring them back to the start or of they finish the game/or prefer to play it diffrently. 
+
+I decided to include a a btton to aloow the user to go one step back, so as to not make them go right back to the start and save time.
+
