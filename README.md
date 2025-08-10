@@ -121,11 +121,11 @@ The buttons themselves are actally emojis...
 ## The Plot/Storyline
 ### Brave Knight saves king from certain death
 
-Using historical and local landmarks ans culture to allow the user to navigate and learn facts about the city as they go. 
+Using historical and local landmarks and culture to allow the user to navigate and learn facts about the city as they go. 
 
 They begin by choosing their speech, their small army and their choice of weapons. The player then has to choose how long they want to play for. The duration is set by using the buttons provided near the bottom of the screen.
 
-A reset button has been provided to bring them back to the start or of they finish the game/or prefer to play it diffrently. 
+A reset button has been provided to bring them back to the start or if they finish the game/or prefer to play it differently. 
 
-I decided to include a a btton to aloow the user to go one step back, so as to not make them go right back to the start and save time.
+I decided to include a button to allow the user to go one step back, so as to not make them go right back to the start and save time. This should keep them playing for longer. 
 
