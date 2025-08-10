@@ -141,7 +141,8 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   max-width: 100%;
 }
 
-/* This is for each span and div ID. To seperate the text and their contents/ to hide and show which options should be visible along with JS */
+/* This is for each span and div ID. To seperate the text and their contents/ to hide and show which options should be visible along with JS
+taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp */
 
 #hall.hidden {
   display: none;
