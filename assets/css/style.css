@@ -23,6 +23,7 @@ p {
 }
 #logo {
     display: flex;
+    flex-wrap: wrap;
   background: url("images/final-logo.png");
   background-repeat: no-repeat;
   background-size: auto;
