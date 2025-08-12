@@ -38,43 +38,37 @@ Here are the various designs of the logo and favicons...
 <img src="../MP2/assets/documentation/logosfavicons/2.png">
 <img src="../MP2/assets/documentation/logosfavicons/3.png">
 <img src="../MP2/assets/documentation/logosfavicons/4.png">
-<img src="assets/documentation/logos-favicons/5.png">
-<img src="assets/documentation/logos-favicons/6.png">
-<img src="assets/documentation/logos-favicons/7.png">
-<img src="assets/documentation/logos-favicons/8.png">
-<img src="assets/documentation/logos-favicons/8.png">
-<img src="assets/documentation/logos-favicons/9.png">
-<img src="assets/documentation/logos-favicons/10.png">
-<img src="assets/documentation/logos-favicons/11.png">
-<img src="assets/documentation/logos-favicons/12.png">
-<img src="assets/documentation/logos-favicons/13.png">
-<img src="assets/documentation/logos-favicons/14.png">
+<img src="../MP2/assets/documentation/logosfavicons/5.png">
+<img src="../MP2/assets/documentation/logosfavicons/6.png">
+<img src="../MP2/assets/documentation/logosfavicons/7.png">
+<img src="../MP2/assets/documentation/logosfavicons/8.png">
+<img src="../MP2/assets/documentation/logosfavicons/9.png">
+<img src="../MP2/assets/documentation/logosfavicons/10.png">
+<img src="../MP2/assets/documentation/logosfavicons/11.png">
+<img src="../MP2/assets/documentation/logosfavicons/12.png">
+<img src="../MP2/assets/documentation/logosfavicons/13.png">
+<img src="../MP2/assets/documentation/logosfavicons/14.png">
 <img src="assets/documentation/logos-favicons/15.png">
-<img src="assets/documentation/logos-favicons/16.png">
-<img src="assets/documentation/logos-favicons/17.png">
-<img src="assets/documentation/logos-favicons/18.png">
-<img src="assets/documentation/logos-favicons/19.png">
-<img src="assets/documentation/logos-favicons/20.png">
-<img src="assets/documentation/logos-favicons/21.png">
-<img src="assets/documentation/logos-favicons/22.png">
-<img src="assets/documentation/logos-favicons/23.png">
-<img src="assets/documentation/logos-favicons/24.png">
-<img src="assets/documentation/logos-favicons/25.png">
-<img src="assets/documentation/logos-favicons/26.png">
-<img src="assets/documentation/logos-favicons/27.png">
-<img src="assets/documentation/logos-favicons/28.png">
-<img src="assets/documentation/logos-favicons/29.png">
-<img src="assets/documentation/logos-favicons/30.png">
-<img src="assets/documentation/logos-favicons/31.png">
-<img src="assets/documentation/logos-favicons/favicon-1.png">
-<img src="assets/documentation/logos-favicons/favicon-2.png">
+<img src="../MP2/assets/documentation/logosfavicons/16.png">
+<img src="../MP2/assets/documentation/logosfavicons/19.png">
+<img src="../MP2/assets/documentation/logosfavicons/20.png">
+<img src="../MP2/assets/documentation/logosfavicons/21.png">
+<img src="../MP2/assets/documentation/logosfavicons/22.png">
+<img src="../MP2/assets/documentation/logosfavicons/23.png">
+<img src="../MP2/assets/documentation/logosfavicons/24.png">
+<img src="../MP2/assets/documentation/logosfavicons/28.png">
+<img src="../MP2/assets/documentation/logosfavicons/29.png">
+<img src="../MP2/assets/documentation/logosfavicons/30.png">
+<img src="../MP2/assets/documentation/logosfavicons/31.png">
+<img src="../MP2/assets/documentation/logosfavicons/favicon-1.png">
+<img src="../MP2/assets/documentation/logosfavicons/favicon-2.png">
 
 
 This was the final design and chosen logo...
-<img src="assets/documentation/logos-favicons/final-logo.png">
-<img src="assets/documentation/logos-favicons/final-favicon.png">
+<img src="../MP2/assets/documentation/logosfavicons/final-logo.png">
+<img src="../MP2/assets/documentation/logosfavicons/final-favicon.png">
 And for the game page the logo is...
-<img src="assets/documentation/logos-favicons/final-game-page.png">
+<img src="../MP2/assets/documentation/logosfavicons/final-game-page.png">
 
 The logic is an interactive story game so an open book invites the user to participate to co-create a story of their own choosing.
 
