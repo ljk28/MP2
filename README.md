@@ -34,10 +34,10 @@ The website will consist of one page and keep CSS hidden values to achieve this.
 ## Development 
 ### Logo design
 Here are the various designs of the logo and favicons...
-<img src="/assets/documentation/logosfavicons/1.png">
-<img src="/assets/documentation/logos-favicons/2.png">
-<img src="assets/documentation/logos-favicons/3.png">
-<img src="assets/documentation/logos-favicons/4.png">
+<img src="../MP2/assets/documentation/logosfavicons/1.png">
+<img src="../MP2/assets/documentation/logosfavicons/2.png">
+<img src="../MP2/assets/documentation/logosfavicons/3.png">
+<img src="../MP2/assets/documentation/logosfavicons/4.png">
 <img src="assets/documentation/logos-favicons/5.png">
 <img src="assets/documentation/logos-favicons/6.png">
 <img src="assets/documentation/logos-favicons/7.png">
