@@ -48,7 +48,7 @@ Here are the various designs of the logo and favicons...
 <img src="../MP2/assets/documentation/logosfavicons/12.png">
 <img src="../MP2/assets/documentation/logosfavicons/13.png">
 <img src="../MP2/assets/documentation/logosfavicons/14.png">
-<img src="assets/documentation/logos-favicons/15.png">
+<img src="../MP2/assets/documentation/logosfavicons/15.png">
 <img src="../MP2/assets/documentation/logosfavicons/16.png">
 <img src="../MP2/assets/documentation/logosfavicons/19.png">
 <img src="../MP2/assets/documentation/logosfavicons/20.png">
