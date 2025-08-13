@@ -147,7 +147,8 @@ taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp 
   display: none;
 }
 
-/* hover over for lets play text taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/:hover */
+/* hover over for lets play text taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/:hover 
+and also https://github.com/WebDevSimplified/JavaScript-Text-Adventure/blob/master/styles.css*/
 
 details:hover {
   color: #ffffff;
@@ -160,3 +161,24 @@ summary:hover {
 #play-new:hover {
   color: #38B6FF;
 }
+
+#castle:hover {
+  border-color: #ffC099;
+}
+
+#crown:hover {
+  border-color: #ffC099;
+}
+
+#horse:hover {
+  border-color: #ffC099;
+}
+
+#thumbs-up:hover {
+  border-color: #ffC099;
+}
+
+#thumbs-down:hover {
+  border-color: #ffC099;
+}
+
