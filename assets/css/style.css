@@ -149,9 +149,11 @@ taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp 
 
 /* hover over for lets play text taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/:hover */
 
+details:hover {
+  color: #FF3131
+}
 
 #play-new:hover {
   color: #38B6FF;
 }
-
 
