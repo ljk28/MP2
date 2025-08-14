@@ -140,7 +140,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   max-width: 100%;
 }
 
-/* This is for each span and div ID. To seperate the text and their contents/ to hide and show which options should be visible along with JS
+/* This is for each div ID. To seperate the text and their contents/ to hide and show which options should be visible along with JS
 taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp */
 
 .hidden {
@@ -161,24 +161,25 @@ summary:hover {
 #play-new:hover {
   color: #38B6FF;
 }
+#play-new:active {
+  transition: ;
+}
 
 #castle:hover {
   border-color: #ffC099;
+}
+#castle:active {
+  transform: translate(5px);
 }
 
 #crown:hover {
   border-color: #ffC099;
 }
 
-#horse:hover {
-  border-color: #ffC099;
+#crown:active {
+  transform: translate(5px);
 }
 
-#thumbs-up:hover {
-  border-color: #ffC099;
-}
+/* The active pseudo class was taken and adapted from https://fmennen.de/post/creating-stylish-buttons-with-html-css-and-java-script */
 
-#thumbs-down:hover {
-  border-color: #ffC099;
-}
 
