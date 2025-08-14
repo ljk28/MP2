@@ -8,8 +8,11 @@ button {
   color: #ffffff;
 }
 
+/* Making use of the text shadow the ref is from https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow */
+
 p {
-  color: #ffffff;
+  color: #ffC099;
+  text-shadow: #ff3131 1px 1px;
   font-size: 2rem;
   font-family: "Macondo-regular";
   justify-content: center;
@@ -130,6 +133,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
 .text-box-1 {
   visibility: visible;
   color: #ffffff;
+  box-shadow: #ffC099;
   font-family: "Macondo-regular";
   font-size: 2rem;
 }
@@ -149,7 +153,9 @@ taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp 
 
 /* hover over for lets play text taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/:hover 
 and also https://github.com/WebDevSimplified/JavaScript-Text-Adventure/blob/master/styles.css*/
-/* The "active" pseudo class and "linear-gradient" was taken and adapted from https://fmennen.de/post/creating-stylish-buttons-with-html-css-and-java-script */
+/* The "active" pseudo class and "linear-gradient" was taken and adapted from https://fmennen.de/post/creating-stylish-buttons-with-html-css-and-java-script 
+Below the border width was adpated from:
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-width */
 
 details:hover {
   color: #ffffff;
@@ -165,14 +171,16 @@ summary:hover {
 
 
 #castle:hover {
-  border-color: #ffC099;
+  border-color: #ff3131;
+  border-width: thick;
 }
 #castle:active {
   transform: translate(5px);
 }
 
 #crown:hover {
-  border-color: #ffC099;
+  border-color: #ff3131;
+   border-width: thick;
 }
 
 #crown:active {
@@ -185,7 +193,7 @@ summary:hover {
 }
 
 #castle {
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(to right, #000000, #38B6FF);
 }
 
 #crown {
@@ -193,5 +201,5 @@ summary:hover {
 }
 
 #crown {
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(to right, #000000, #ffC099);
 }
