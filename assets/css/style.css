@@ -149,6 +149,7 @@ taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp 
 
 /* hover over for lets play text taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/:hover 
 and also https://github.com/WebDevSimplified/JavaScript-Text-Adventure/blob/master/styles.css*/
+/* The "active" pseudo class and "linear-gradient" was taken and adapted from https://fmennen.de/post/creating-stylish-buttons-with-html-css-and-java-script */
 
 details:hover {
   color: #ffffff;
@@ -161,9 +162,7 @@ summary:hover {
 #play-new:hover {
   color: #38B6FF;
 }
-#play-new:active {
-  transition: ;
-}
+
 
 #castle:hover {
   border-color: #ffC099;
@@ -180,6 +179,19 @@ summary:hover {
   transform: translate(5px);
 }
 
-/* The active pseudo class was taken and adapted from https://fmennen.de/post/creating-stylish-buttons-with-html-css-and-java-script */
 
+#castle {
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
 
+#castle {
+  background: linear-gradient(to right, #000000, #ffffff);
+}
+
+#crown {
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#crown {
+  background: linear-gradient(to right, #000000, #ffffff);
+}
