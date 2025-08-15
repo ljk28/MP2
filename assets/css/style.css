@@ -6,6 +6,18 @@ body {
 
 p {
   color: #ffffff;
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Macondo-regular";
+  justify-content: center;
+  align-items: center;
+  font-display: center;
+  text-wrap: wrap;
+}
+
+#instructions {  
+  color: #ffffff;
   font-size: 1.8rem;
   font-family: "Macondo-regular";
   justify-content: center;
@@ -24,6 +36,7 @@ p {
   background-repeat: no-repeat;
   background-size: auto;
   justify-self: center;
+  align-items: center;
   size: auto;
 }
 
@@ -167,14 +180,22 @@ summary:hover {
   width: cover;
 }
 
-/* Buttons for navigation */
+/* Buttons for navigation - the centering was taken from googles AI feature 
+https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=getting+a+button+to+be+on+the+center&gs_lcrp=EgZjaHJvbWUqBwgFECEYnwUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRiPAjIHCAgQIRiPAtIBCDg4MjBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8 */
+
+.style {
+  display: flex;
+  justify-content: center;
+}
 
 .button-1 {
- display: flex;
- justify-content: flex-start;
+ display: grid;
+ justify-content: center;
+ align-items: center;
  background-color: #38B6FF;
  background: linear-gradient(to right, #38B6FF, #000000, #ff3131);
  font-style: italic;
+  text-align: center;
 }
 
 .button-1:hover {
@@ -182,12 +203,15 @@ summary:hover {
    border-width: thick;
 }
 .button-2 {
+  
  display: flex;
- justify-content: flex-end;
+ justify-content: center;
+ align-items: center;
  background: linear-gradient(to right, #ff3131, #000000, #38B6FF);
  background-color: #38B6FF;
  font-style: italic;
- border: ;
+ text-align: center;
+
 }
 
 .button-2:hover {
