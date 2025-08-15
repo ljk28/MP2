@@ -4,6 +4,13 @@ body {
   cursor: pointer;
 }
 
+/* The class responsive was needed to make it respsonsive on smaller screen sizes without the need for a media query , css and html was used 
+ref= https://www.w3schools.com/howto/howto_css_image_responsive.asp */ 
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
 p {
   color: #ffffff;
   display: block;
@@ -37,7 +44,8 @@ p {
   background-size: auto;
   justify-self: center;
   align-items: center;
-  size: auto;
+ max-width: 100%;
+ height: auto;
 }
 
 
