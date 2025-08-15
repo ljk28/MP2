@@ -3,3 +3,6 @@ document.getElementById("castle").onclick = function () {
     window.location.href = "index.html";
 };
 
+
+/* opens a new pop up box when clicked */
+
