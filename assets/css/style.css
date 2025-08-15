@@ -7,10 +7,7 @@ body {
 /* The class responsive was needed to make it respsonsive on smaller screen sizes without the need for a media query , css and html was used 
 ref= https://www.w3schools.com/howto/howto_css_image_responsive.asp */ 
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
+
 p {
   color: #ffffff;
   display: block;
@@ -23,19 +20,6 @@ p {
   text-wrap: wrap;
 }
 
-#instructions {  
-  color: #ffffff;
-  font-size: 1.8rem;
-  font-family: "Macondo-regular";
-  justify-content: center;
-  align-items: center;
-  font-display: center;
-  text-wrap: wrap;
-}
-
-.music {
-  font-size: 1rem;
-}
 #logo {
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +98,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   flex-wrap: wrap;
   font-size: 5rem;
   display: flex;
-  color: #ffffff;
+  color: #38B6FF;
   justify-content: center;
   font-family: "Macondo-regular";
   cursor: pointer;
@@ -158,7 +142,7 @@ summary:hover {
 }
 
 #play-new:hover {
-  color: #38B6FF;
+  color: #ff3131;
 }
 
 
@@ -188,6 +172,7 @@ summary:hover {
   width: cover;
 }
 
+
 /* Buttons for navigation - the centering was taken from googles AI feature 
 https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=getting+a+button+to+be+on+the+center&gs_lcrp=EgZjaHJvbWUqBwgFECEYnwUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRiPAjIHCAgQIRiPAtIBCDg4MjBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8 */
 
@@ -197,17 +182,16 @@ https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=
 }
 
 .button-1 {
- display: grid;
+ display: flex;
  justify-content: center;
  align-items: center;
  background-color: #38B6FF;
- background: linear-gradient(to right, #38B6FF, #000000, #ff3131);
- font-style: italic;
+ background: linear-gradient(to right, #000000, #38B6FF);
   text-align: center;
 }
 
 .button-1:hover {
-  border-color: #38B6FF;
+  border-color: #ff3131;
    border-width: thick;
 }
 .button-2 {
@@ -215,14 +199,15 @@ https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=
  display: flex;
  justify-content: center;
  align-items: center;
- background: linear-gradient(to right, #ff3131, #000000, #38B6FF);
- background-color: #38B6FF;
- font-style: italic;
+ background: linear-gradient(to right,  #38B6FF, #000000);
  text-align: center;
 
 }
 
 .button-2:hover {
-  border-color: #38B6FF;
+  border-color: #ff3131;
    border-width: thick;
 }
+
+ /*/ Media queries /*/
+  
