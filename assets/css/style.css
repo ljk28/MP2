@@ -11,6 +11,7 @@ p {
   justify-content: center;
   align-items: center;
   font-display: center;
+  text-wrap: wrap;
 }
 
 .music {
@@ -31,6 +32,7 @@ details {
   color: #ffffff;
   display: grid;
   justify-content: center;
+  flex-wrap: wrap;
   font-family: Macondo-regular;
   font-size: x-large;
   size: auto;
@@ -38,6 +40,8 @@ details {
 
 summary {
   font-size: xx-large;
+  display: grid;
+  justify-content: center;
 }
 
 .macondo-regular {
@@ -55,9 +59,11 @@ https://www.shecodes.io/athena/39607-how-to-add-emojis-on-a-website-using-html-a
 
 details ::marker {
 content: "⚔";
+display: grid;
 color: #ffffff;
 font-size: 3rem;
 size: auto;
+
 }
 
 /* This helped to correctly place text in the right place
