@@ -1,4 +1,8 @@
 
+.container-text {
+  
+}
+
 body {
   background-color: #000000;
   cursor: pointer;
@@ -150,6 +154,7 @@ summary:hover {
   border-color: #ff3131;
   border-width: thick;
    background: linear-gradient(to right,  #000000, #ff3131, #000000);
+   
 }
 #castle:active {
   transform: translate(5px);
