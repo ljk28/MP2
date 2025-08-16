@@ -149,6 +149,7 @@ summary:hover {
 #castle:hover {
   border-color: #ff3131;
   border-width: thick;
+   background: linear-gradient(to right,  #000000, #ff3131, #000000);
 }
 #castle:active {
   transform: translate(5px);
@@ -160,7 +161,7 @@ summary:hover {
 }
 
 #castle {
-  background: linear-gradient(to right, #000000, #38B6FF);
+  background: linear-gradient(to right, #000000, #38B6FF, #000000);
 }
 
 
@@ -186,12 +187,13 @@ https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=
  justify-content: center;
  align-items: center;
  background-color: #38B6FF;
- background: linear-gradient(to right, #000000, #38B6FF);
+ background: linear-gradient(to right, #000000, #38B6FF, #000000);
   text-align: center;
 }
 
 .button-1:hover {
   border-color: #ff3131;
+ background: linear-gradient(to right, #000000, #ff3131, #000000);
    border-width: thick;
 }
 .button-2 {
@@ -199,13 +201,14 @@ https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=
  display: flex;
  justify-content: center;
  align-items: center;
- background: linear-gradient(to right,  #38B6FF, #000000);
+ background: linear-gradient(to right, #000000, #38B6FF, #000000);
  text-align: center;
 
 }
 
 .button-2:hover {
   border-color: #ff3131;
+   background: linear-gradient(to right,#000000, #ff3131, #000000);
    border-width: thick;
 }
 
