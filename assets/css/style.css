@@ -33,7 +33,7 @@ body {
 #castle2 {
 
   display: flex;
-  max-width: 3em;
+  max-width: 8em;
   height: auto;
   justify-content: center;
   justify-self: center;
