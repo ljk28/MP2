@@ -1,7 +1,4 @@
 
-.container-text {
-  
-}
 
 body {
   background-color: #000000;
@@ -208,14 +205,6 @@ summary:hover {
   background: linear-gradient(to right, #000000, #38B6FF, #000000);
 }
 
-
-/* The container to hold all text elements inside */
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: cover;
-}
 
 
 /* Buttons for navigation - the centering was taken from googles AI feature 

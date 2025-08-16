@@ -4,5 +4,3 @@ document.getElementById("castle").onclick = function () {
 };
 
 
-/* opens a new pop up box when clicked */
-
