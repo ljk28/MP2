@@ -8,10 +8,14 @@ body {
   cursor: pointer;
 }
 
+/* In order to make the images in the intructions section responsive I had to readjust the height to auto and max width to 100 percent
+ref: https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=An%20image%20can%20be%20made,image%20will%20also%20change%20proportionally.
+*/ 
+
 #storyline1 {
   display: flex;
-  height: 60%;
-  max-width: 60%;
+  height: auto;
+  max-width: 100%;
   justify-content: center;
   justify-self: center;
   padding: 0.3em;
@@ -22,13 +26,14 @@ body {
 #storyline2 {
 
   display: flex;
-  height: 60%;
-  max-width: 60%;
+  height: auto%;
+  max-width: 100%;
   justify-content: center;
   justify-self: center;
   padding: 0.3em;
   background-color: #ffC099;
 }
+
 
 #castle2 {
 
