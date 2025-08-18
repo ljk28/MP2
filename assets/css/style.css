@@ -9,7 +9,7 @@ body {
 ref: https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=An%20image%20can%20be%20made,image%20will%20also%20change%20proportionally.
 */ 
 
-#storyline1 {
+#story {
   display: flex;
   height: auto;
   max-width: 100%;
