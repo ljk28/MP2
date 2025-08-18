@@ -203,6 +203,9 @@ summary:hover {
 }
 
 #castle {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
   background: linear-gradient(to right, #000000, #38B6FF, #000000);
 }
 
