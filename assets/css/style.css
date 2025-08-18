@@ -21,14 +21,14 @@ ref: https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=An
 
 
 #storyline2 {
-
+  size-adjust: 20em;
   display: flex;
-  height: auto%;
+  height: auto;
   max-width: 100%;
   justify-content: center;
   justify-self: center;
   padding: 0.3em;
-  background-color: #ffC099;
+ 
 }
 
 
@@ -37,6 +37,7 @@ ref: https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=An
   display: flex;
   max-width: 8em;
   height: auto;
+  align-items: center;
   justify-content: center;
   justify-self: center;
   padding: 0.3em;
@@ -154,7 +155,7 @@ https://www.geeksforgeeks.org/html/html-emojis/ */
   font-size: 2rem;
 }
 
-#knight1 {
+#text {
   flex-shrink: auto;
   flex-wrap: wrap;
   max-width: 100%;

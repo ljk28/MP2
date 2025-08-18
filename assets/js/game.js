@@ -2,5 +2,4 @@
 document.getElementById("castle").onclick = function () {
     window.location.href = "index.html";
 };
-
-
+/* --- */
