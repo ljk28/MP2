@@ -9,22 +9,10 @@ body {
 ref: https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=An%20image%20can%20be%20made,image%20will%20also%20change%20proportionally.
 */ 
 
-#storyline1 {
+.story {
   display: flex;
-  height: cover;
-  max-width: cover;
-  justify-content: center;
-  justify-self: center;
-  padding: 0.3em;
-  background-color: #ffC099;
-}
-
-
-#storyline2 {
-
-  display: flex;
-  height: cover;
-  max-width: cover;
+  height: 100;
+  max-width: auto;
   justify-content: center;
   justify-self: center;
   padding: 0.3em;
@@ -84,25 +72,11 @@ summary {
   font-style: normal;
 }
 
+
 /* This helped to correctly place text in the right place
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details  */ 
 
 
-#play-game {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  cursor: pointer;
-}
-
-
-/* Below is the css for the gamepage */
-
-#text {
-  flex-shrink: auto;
-  flex-wrap: wrap;
-  max-width: 100%;
-}
 
 /* This is for each div ID. To seperate the text and their contents/ to hide and show which options should be visible along with JS
 taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp */
