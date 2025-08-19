@@ -1,5 +1,3 @@
-
-/* --code taken and adapted from repo and tutorial https://github.com/WebDevSimplified/JavaScript-Text-Adventure/blob/master/game.js -- */
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 
@@ -39,3 +37,17 @@ function selectOption(option) {
   state = Object.assign(state, option.setState)
   showTextNode(nextTextNodeId)
 }
+
+const textNodes = [
+  {
+    id:1, 
+    text: "jar of blue goo",
+    options: [
+          {
+            text: 'take goo'
+          }
+    ]
+  }
+]
+
+/* --the above code taken and adapted from repo and tutorial https://github.com/WebDevSimplified/JavaScript-Text-Adventure/blob/master/game.js -- */

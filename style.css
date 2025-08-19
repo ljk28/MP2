@@ -136,7 +136,6 @@ https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=
   justify-content: center;
   align-items: center;
   text-align: center;
-  grid-template-columns: auto auto auto auto;
 }
 
  /*/ Media queries /*/
