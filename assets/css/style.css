@@ -11,10 +11,10 @@ ref: https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=An
 
 .story {
   display: flex;
-  height: 100;
   max-width: auto;
   justify-content: center;
   justify-self: center;
+  align-items: center;
   padding: 0.3em;
   background-color: #ffC099;
 }
@@ -27,7 +27,7 @@ ref= https://www.w3schools.com/howto/howto_css_image_responsive.asp */
 
 p {
   color: #ffffff;
-  display: block;
+  display: flex;
   text-align: center;
   font-size: 1.8rem;
   font-family: "Macondo-regular";
@@ -109,12 +109,12 @@ summary:hover {
 https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=getting+a+button+to+be+on+the+center&gs_lcrp=EgZjaHJvbWUqBwgFECEYnwUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRiPAjIHCAgQIRiPAtIBCDg4MjBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8 */
 
 .style {
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 
 .btn {
- display: flex;
+ display: grid;
  justify-content: center;
  align-items: center;
  background-color: #38B6FF;
@@ -132,7 +132,11 @@ https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=
 }
 
 .btn-grid {
-  border-color: ;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: auto auto auto auto;
 }
 
  /*/ Media queries /*/
