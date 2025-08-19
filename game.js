@@ -4,7 +4,7 @@ const optionButtonsElement = document.getElementById('option-buttons')
 let state = {}
 
 function startGame() {
-  state= {}
+  state = {}
   showTextNode(1)
 }
 function showTextNode(textNodeIndex) {
@@ -44,9 +44,15 @@ const textNodes = [
     text: "jar of blue goo",
     options: [
           {
-            text: 'take goo'
+            text: 'take goo',
+            setState: { blueGoo: true },
+            nextText: 2
           }
     ]
+  }
+  {
+    id:2,
+    text: 
   }
 ]
 
