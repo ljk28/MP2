@@ -1,8 +1,9 @@
 
 
 body {
-  background-color: #000000;
+
   cursor: pointer;
+  color: #000000;
 }
 
 /* In order to make the images in the intructions section responsive I had to readjust the height to auto and max width to 100 percent
@@ -52,10 +53,10 @@ p {
 
 details {
   color: #ffffff;
-  display: grid;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: Macondo-regular;
+  font-family: "Macondo-regular";
   font-size: x-large;
   size: auto;
 }
@@ -64,6 +65,8 @@ summary {
   font-size: xx-large;
   display: grid;
   justify-content: center;
+  font-family: "Macondo-regular";
+  font-family: "Macondo", cursive;
 }
 
 .macondo-regular {
