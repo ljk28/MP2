@@ -6,7 +6,7 @@ let btnClick = document.querySelector("button");
 
 
 btnClick.addEventListener("click", () => {
-    window.location.href = "game1.html";
+    window.location.href = "";
   })
  
  
