@@ -8,6 +8,13 @@ btnClick.addEventListener("click", () => {
     window.location.href = "game1.html";
   })
 
+  btnClick.addEventListener("click", () => {
+    window.location.href = "game2.html";
+  })
+
+  btnClick.addEventListener("click", () => {
+    window.location.href = "game3.html";
+  })
 
  
   /* Below the code is taken and adapted from ...https://www.shecodes.io/athena/3469-how-to-display-text-when-a-button-is-clicked-with-javascript */
