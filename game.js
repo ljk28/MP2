@@ -4,31 +4,13 @@ https://www.youtube.com/watch?v=Ffw_CFyieTs */
 
 let btnClick = document.querySelector("button");
 
+
 btnClick.addEventListener("click", () => {
     window.location.href = "game1.html";
   })
-
-    btnClick.addEventListener("click", () => {
-    window.location.href = "losegame.html";
-  })
-
-
-  btnClick.addEventListener("click", () => {
-    window.location.href = "game2.html";
-  })
-
-  btnClick.addEventListener("click", () => {
-    window.location.href = "game3.html";
-  })
-
-
-    btnClick.addEventListener("click", () => {
-    window.location.href = "game4.html";
-  })
  
-  btnClick.addEventListener("click", () => {
-    window.location.href = "game5.html";
-  })
+
+ 
 
   /* Below the code is taken and adapted from ...https://www.shecodes.io/athena/3469-how-to-display-text-when-a-button-is-clicked-with-javascript */
   function displayText() {
