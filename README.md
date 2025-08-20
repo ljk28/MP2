@@ -98,6 +98,9 @@ Image by OpenClipart-Vectors from Pixabay
 https://pixabay.com/vectors/armor-armour-horse-horseback-1299032/
 Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1299032">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1299032">Pixabay</a>
 
+### Animations/gifs
+GIF by <a href="https://pixabay.com/users/julientromeur-3630051/?utm_source=link-attribution&utm_medium=referral&utm_campaign=animation&utm_content=629">Julien Tromeur</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=animation&utm_content=629">Pixabay</a>
+
 ### Sizing the buttons 
 The buttons I wanted to be icons to make it more fun for the user. There was an issue with trying to make them responsive on smaller screens. Fortunately, flex-wrap was the perfect answer to this issue. 
 
