@@ -9,6 +9,7 @@ btnClick.addEventListener("click", () => {
     window.location.href = "game1.html";
   })
  
+ 
 
  
 
