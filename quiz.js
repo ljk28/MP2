@@ -92,6 +92,7 @@ const questions = [
             { text: 'no', correct: false }
         ]
     }
+]
      {
         question: 'what did the Gongfarmers do in the castle?',
         answers: [
@@ -101,7 +102,7 @@ const questions = [
             { text: 'farmed for the now extinct animal, Gonglias', correct: false }
         ]
     }
-
+]
        {
         question: 'What did a barber cut in medieval Newcastle?',
         answers: [
@@ -120,7 +121,8 @@ const questions = [
             { text: 'Yes, why not?', correct: false },
             { text: 'I prefer grilled to fried food', correct: false }
         ]
-    },
+    }
+],
     {
         question: 'How old is the castle keep?',
         answers: [
@@ -134,8 +136,8 @@ const questions = [
     {
         question: 'whhere did Newcastle get its name from?',
         answers: [
-            { text: 'A latin name "Novum Castellum" meaning "new castle"', correct: false },
-            { text: 'from a sand castle tat got washed away', correct: true },
+            { text: 'A latin name "Novum Castellum" meaning "new castle"', correct: true },
+            { text: 'from a sand castle tat got washed away', correct: false },
             { text: 'some clever boffin who was bored', correct: false },
             { text: 'from a man named Norman, nice chap', correct: false }
         ]
@@ -144,9 +146,9 @@ const questions = [
     {
         question: 'In medieval Newcatsle, what was sold as a high commidity?',
         answers: [
-            { text: 'wool, taded and sold a lot ', correct: false },
+            { text: 'wool, traded and sold a lot of it ', correct: true },
             { text: 'iphones', correct: false },
-            { text: 'huh?', correct: true },
+            { text: 'huh?', correct: false },
             { text: 'pottery', correct: false }
         ]
     }
