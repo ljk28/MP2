@@ -1,9 +1,5 @@
 
 
-canvas {
-  color: #000000;
-}
-
 body {
 
   cursor: pointer;
@@ -91,14 +87,6 @@ summary {
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details  */ 
 
 
-
-/* This is for each div ID. To seperate the text and their contents/ to hide and show which options should be visible along with JS
-taken and adapted from https://www.w3schools.com/css/css_display_visibility.asp */
-
-.hidden {
-  display: none;
-}
-
 /* hover over for lets play text taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/:hover 
 and also https://github.com/WebDevSimplified/JavaScript-Text-Adventure/blob/master/styles.css*/
 /* The "active" pseudo class and "linear-gradient" was taken and adapted from https://fmennen.de/post/creating-stylish-buttons-with-html-css-and-java-script 
@@ -134,29 +122,21 @@ https://www.google.com/search?q=getting+a+button+to+be+on+the+center+of+page&oq=
   justify-content: center;
 }
 
-.btn {
+button {
  display: grid;
  justify-content: center;
  align-items: center;
- background-color: #38B6FF;
+ 
  background: linear-gradient(to right, #000000, #38B6FF, #000000);
   text-align: center;
   font-family: "Macondo", cursive;
   font-size: 2em;
   color: #ffffff;
 }
-
-.btn:hover {
+button:hover {
   border-color: #ff3131;
  background: linear-gradient(to right, #000000, #ff3131, #000000);
    border-width: thick;
-}
-
-.btn-grid {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
  /*/ Media queries /*/
