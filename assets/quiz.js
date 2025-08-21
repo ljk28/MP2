@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
@@ -8,7 +10,7 @@ const answerButtonsElement = document.getElementById('answer-buttons');
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame);
-nextButton.addEventListener('click', () => {
+nextButton.addEventListener('click',) () => {
     currentQuestionIndex++;
 
 }
