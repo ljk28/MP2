@@ -7,13 +7,14 @@ const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 
 
-let shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex;
 
 startButton.addEventListener('click', startGame);
-nextButton.addEventListener('click',) () => {
+nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
-
+    setNextQuestion();
 }
+);
 
 
 function startGame() {
@@ -41,8 +42,7 @@ function showQuestion(question) {
         }
         button.addEventListener('click', selectAnswer);
         answerButtonsElement.appendChild(button);
-    }
-
+    });
 }
 
 function resetState() {
@@ -53,16 +53,17 @@ function resetState() {
     }
 }
 
-function selectAnswer(e) {
+function selectAnswer(e) {}
     
    const selectButton = e.target;
    const correct = selectButton.dataset.correct;
     setStatusClass(document.body, correct);
-    Array.from(answerButtonsElement.children).forEach(button => {
-         setStatusClass(button, button.dataset.correct);
-  
-}
+Array.from(answerButtonsElement.children).forEach(button => {
+     setStatusClass(button, button.dataset.correct);
+});
 nextButton.classList.remove('hide');
+    
+   
  if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide');
     } else {
@@ -93,8 +94,8 @@ const questions = [
             { text: 'Yes, but not many', correct: true },
             { text: 'no', correct: false }
         ]
-    }
-]
+    },
+
      {
         question: 'what did the Gongfarmers do in the castle?',
         answers: [
@@ -103,8 +104,7 @@ const questions = [
             { text: 'cleaned up the cesspits and dirty corners of of the castle', correct: true },
             { text: 'farmed for the now extinct animal, Gonglias', correct: false }
         ]
-    }
-]
+    },
        {
         question: 'What did a barber cut in medieval Newcastle?',
         answers: [
@@ -113,8 +113,7 @@ const questions = [
             { text: 'hair and also, until it was banned by decree, would help with procedures like "bleeding" on unwitting patients', correct: true },
             { text: 'barbed wire', correct: false }
         ]
-    }
-],
+    },
     {
         question: 'Is Blackfriars where they fry eggs and bacon?',
         answers: [
@@ -123,8 +122,8 @@ const questions = [
             { text: 'Yes, why not?', correct: false },
             { text: 'I prefer grilled to fried food', correct: false }
         ]
-    }
-],
+    },
+
     {
         question: 'How old is the castle keep?',
         answers: [
@@ -134,7 +133,7 @@ const questions = [
             { text: 'finders keepers?', correct: false }
         ]
     },
-  
+
     {
         question: 'whhere did Newcastle get its name from?',
         answers: [
@@ -153,7 +152,8 @@ const questions = [
             { text: 'huh?', correct: false },
             { text: 'pottery', correct: false }
         ]
-    }
+    },
+    
     {
         question: 'Did Newcastle have a sheriff?',
         answers: [
@@ -162,8 +162,8 @@ const questions = [
             { text: 'get off your horse and drink and some milk', correct: false },
             { text: 'Oh, thats an American thing dear', correct: false }
         ]
-    }   
-
+    },   
+]
 // The above code was take and dapated from the following source:
 // https://www.youtube.com/watch?v=riDzcEQbX6k 
 // Build a Quiz App With JavaScript //
