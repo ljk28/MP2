@@ -1,16 +1,23 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Macondo', cursive;
 }   
 
 :root {
-    --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
+    --neutral: #000000;
+    --wrong: #ff3131;
+    --correct: #00ff00;
 }
 
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
-    --hue: var(--hue-neutral);
+    
      margin: 0;
      padding: 0;
     display: flex;
@@ -18,38 +25,44 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background: #000000;
 }
 
 body.correct {
-    --hue: var(--hue-correct);
-    color: linear-gradient(to right, #000000, #ffee, #000000);;
+    --var-correct: #00ff00;
+ 
 }
 
 body.wrong {
-    --hue: var(--hue-wrong);
+    --var-wrong: #ff3131;
 }
 
 .container {
-    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
     max-width: 80%;
-    background-color: white;
+    background-color: linera-gradient(to right, #000000, #38B6FF, #000000);
     border-radius: 5px;
    padding: 10px;
 box-shadow: 0 0 10px 2px;
-
+    text-align: center;
+    align-items: center;
+    margin-top: auto;
 }
 
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    background: linear-gradient(to right, #000000, #38B6FF, #000000);
     gap: 10px;
     margin: 20px 0;
 
 }
 
 .btn {
-    --hue: var(--hue-neutral);
+     --var--neutral: #000000;
     background: linear-gradient(to right, #000000, #38B6FF, #000000);
     border: 8px solid hsl(var(--hue), 100%, 30%);
     background-color: hsl(var(--hue), 100%, 50%);
@@ -65,15 +78,17 @@ box-shadow: 0 0 10px 2px;
 }
 
 .btn.correct {
-    --hue: var(--hue-correct);
+
     background: linear-gradient(to right, #000000, #00ff00, #000000);
 }
 
 .btn.wrong {
-    --hue: var(--hue-wrong);
+     background: linear-gradient(to right, #000000, #38B6FF, #000000);
+    
 }
 
 .start-btn, .next-btn {
+    font-family: 'Macondo', cursive;
  font-size: 1.5rem;
  font-weight: bold;
  padding: 10px 20px;
@@ -84,8 +99,22 @@ box-shadow: 0 0 10px 2px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .hide {
     display: none;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: auto;
+    max-width: min-content;
+    margin-bottom: 20px;
+    margin-top: -50px;
+
 }
