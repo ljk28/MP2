@@ -10,9 +10,11 @@
     <title>Newcastle quiz game</title>
 </head>
 <body>
-    <img alt="logo"  src="assets/images/final-logo.png" id="logo">
+
+<!-- https://freesvg.org/knight-attacks ref for knight-->
     <div class="container">
         <div id="question-container" class="hide">
+            
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
                 <button class="btn">Answer 1</button>
@@ -21,11 +23,18 @@
                 <button class="btn">Answer 4</button>
             </div>
         </div>
+       
+        <p>O Valiant knight! Can you get the quiz right to gain the kings approval?</p>
         <div class="controls">
             <button id="start-btn" class="start-btn btn">Start</button>
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
+        
     </div>
+    <img alt="knight-image" src="assets/images/knight-horse.svg" id="knight">
+    
+    <p></p>
+    
      <script  src="assets/quiz.js"></script>
 </body>
 </html>
