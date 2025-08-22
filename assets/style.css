@@ -6,7 +6,7 @@
 :root {
     --neutral: #000000;
     --wrong: #ff3131;
-    --correct: #00ff00;
+    --correct: #38b6ff;
 }
 
 .macondo-regular {
@@ -34,7 +34,7 @@ body {
     align-items: center;
     height: 75vh;
     width: auto;
-    background: linear-gradient(to right, black, #38B6FF, black);
+    background: linear-gradient(to right, black, #ff3131, black);
 }
 
 body.correct {
@@ -47,9 +47,9 @@ body.wrong {
 }
 
 .container {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     max-width: fit-content;
     background-color: #000000;
@@ -58,12 +58,12 @@ body.wrong {
 box-shadow: 0 0 10px 2px;
     text-align: center;
     align-items: center;
-    
+    margin-top: 50px;
 }
 
 .btn-grid {
     display: grid;
-    justify-items: center;
+    justify-items: baseline;
     grid-template-columns: repeat(2, auto);
     background: #38B6FF;
     position: relative;
@@ -86,7 +86,7 @@ box-shadow: 0 0 10px 2px;
 
 .btn:hover {
     border-color: black;
-    background: linear-gradient(to right, #000000, #ff3131, #000000);
+    color: #ff3131;
 }
 
 .btn.correct {
@@ -95,7 +95,7 @@ box-shadow: 0 0 10px 2px;
 }
 
 .btn.wrong {
-     background: linear-gradient(to right, #000000, #38B6FF, #000000);
+     background: linear-gradient(to right, #000000, #ff3131, #000000);
     
 }
 
@@ -129,4 +129,15 @@ box-shadow: 0 0 10px 2px;
     max-width: 100vw;
     height: 100vh;
     margin-top: 200px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    
 }
