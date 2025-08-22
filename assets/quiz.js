@@ -158,7 +158,7 @@ const questions = [
         question: 'Did Newcastle have a sheriff?',
         answers: [
             { text: 'No,', correct: false },
-            { text: 'Yes, and tey still do', correct: true },
+            { text: 'Yes, and they still do', correct: true },
             { text: 'get off your horse and drink and some milk', correct: false },
             { text: 'Oh, thats an American thing dear', correct: false }
         ]
