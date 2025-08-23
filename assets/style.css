@@ -125,7 +125,7 @@ body.wrong {
 }
 
 #castle {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -141,7 +141,7 @@ margin-right: 800px;
     
  
 #knight {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -155,7 +155,7 @@ margin-right: 800px;
 }
 
 #stocks {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: auto;
