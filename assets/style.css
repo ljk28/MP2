@@ -59,6 +59,7 @@ body.wrong {
     text-align: center;
     align-items: center;
     margin-top: 50px;
+    display: relative;
 }
 
 .btn-grid {
@@ -133,7 +134,7 @@ margin-right: 800px;
    margin-bottom: 50px;
    position: absolute;
    z-index: -8;
-    
+    max-inline-size: 100%;
     
 }
 
@@ -150,6 +151,7 @@ margin-right: 800px;
     margin-left: 800px;
     z-index: -8;
     position: absolute;
+    max-inline-size: 100%;
 }
 
 #stocks {
@@ -161,7 +163,8 @@ margin-right: 800px;
 margin-right: 50px;
    margin-bottom: -250px;
    position: absolute;
-   z-index: -8;         
+   z-index: -8;   
+   max-inline-size: 100%;      
 }
 
 #logo {
