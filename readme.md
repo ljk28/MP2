@@ -14,11 +14,11 @@ A school is currently covering Medieval history in their curriculum and would li
 A local family is tracing their family tree and has managed to find their roots are firmly in the area with this historcal period the furthest back. They want to hold a fun quiz night for friends and extended family and the website is a perfect way to get everyone to play along.
 
 ### Favicon 
-The design fo the favicon was simple. Black and white with a silhouette. 
+The design of the favicon was simple. Black and white with a silhouette. 
 <img src="assets/images/favicon.png">
 This is because even though the mian page is blue and black, Newcastle is famous for , Toon army-Football club nickname whihc is black and white strioes. Trading in coal, which is black. Wool production and exporting (which is greyish white).
 
 ## Bugs and Development 
 The project has took many twists and turns along the way. Itbwas orginally a story game but this was a little too complex and convoluted to keep it going. Abandonig the stiry based text adventure for a more simple quiz game about the city. This was meant to be easier to write the code and easier to maintain and alter at a alter date. 
 
-### Wireframesa and mock ups
+### Wireframes and mock ups
