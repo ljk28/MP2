@@ -16,6 +16,9 @@
   font-style: normal;
 }
 
+
+
+
 p {
     font-family: 'Macondo';
     font-size: 2.5rem;
@@ -122,20 +125,6 @@ body.wrong {
     display: none;
 }
 
-#castle {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    max-width: 30%;
-margin-right: 800px;
-   margin-bottom: 50px;
-   position: absolute;
-   z-index: -8;
-    max-inline-size: 100%;
-    
-}
-
     
  
 #knight {
@@ -149,18 +138,6 @@ margin-right: 800px;
     margin-top: 200px;
 }
 
-#stocks {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    max-width: 30%;
-margin-right: 50px;
-   margin-bottom: -250px;
-   position: absolute;
-   z-index: -8;   
-   max-inline-size: 100%;      
-}
 
 #logo {
     display: flex;
@@ -174,18 +151,6 @@ margin-right: 50px;
     
 }
 
-#pnew {
-    display: flex;
 
-    justify-content: center;
-    align-items: center;
-    font-family: 'Macondo';
-    font-size: 3rem;
-    color: white;
-    text-align: center;
-    max-width: 600px;
-    margin-bottom: 20px;
-  
-}
 
 /*Media Queries/*
