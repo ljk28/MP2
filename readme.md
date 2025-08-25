@@ -28,3 +28,4 @@ The project has took many twists and turns along the way. Itbwas orginally a sto
 
 ### Mock-ups
 <img src="assets/images/mockup/desk.jpeg">
+<img src="assets/images/mockup/ipad.jpeg">
