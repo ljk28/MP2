@@ -23,3 +23,8 @@ The project has took many twists and turns along the way. Itbwas orginally a sto
 
 ### Wireframes and mock ups
 <img src="assets/images/wireframe/phone.jpg">
+
+
+
+### Mock-ups
+<img src="assets/images/mockup/desk.jpeg">
