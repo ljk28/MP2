@@ -22,3 +22,4 @@ This is because even though the mian page is blue and black, Newcastle is famous
 The project has took many twists and turns along the way. Itbwas orginally a story game but this was a little too complex and convoluted to keep it going. Abandonig the stiry based text adventure for a more simple quiz game about the city. This was meant to be easier to write the code and easier to maintain and alter at a alter date. 
 
 ### Wireframes and mock ups
+<img src="assets/images/wireframe/phone.jpg">
