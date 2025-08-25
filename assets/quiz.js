@@ -53,14 +53,17 @@ function resetState() {
     }
 }
 
-function selectAnswer() {}
+function selectAnswer() {
 
 const selectButton = target;
 const correct = selectButton.dataset.correct;
 setStatusClass(document.body, correct);
 Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct);
-});
+})
+};
+
+
 nextButton.classList.remove('hide');
 
 
