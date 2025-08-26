@@ -9,7 +9,9 @@ Seeing how much the tourists actualy remember, or the students whilst on a day t
 
 Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on was the medieval era.
 
-The quiz game is a great way to help in gaging the users learning and capacity to retain information.
+The quiz game is a great way to help in engaging the users learning and capacity to retain information.
+
+With a focus on local history, users can test their depth of knowledge with an interative feature as start and next buttons. 
 
 ## User Stories 
 #### User Story 1
