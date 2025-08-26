@@ -58,12 +58,17 @@ https://www.newcastlecastle.co.uk/
 
 ### Tools used 
 <ul>
+
 <li>Canva<li>
 Figma<li>
 Jshint<li>
-https://jshint.com/
-
-https://www.site24x7.com/tools/javascript-validator.html
+https://jshint.com/<li>
+VS Code<li>
+CSS<li>
+Jigsaw/W3 Validator<li>
+javascript-validator.html
+https://www.site24x7.com/tools<li>
+apple notes for mac<li>
 
 ## Tutorials 
 
