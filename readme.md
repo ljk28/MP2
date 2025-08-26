@@ -43,3 +43,13 @@ The project has took many twists and turns along the way. It was orginally a sto
 <img src="assets/documentation/lighthousedesktop.jpeg">
 
 For the desktop the rsults were very pleasing but not the same for the mobile version. 
+### Jigsaw and W3 validator for HTML and CSS...
+<img src="assets/documentation/htmlvalidator2.jpeg">
+<img src="assets/documentation/htmlvalidator1.jpeg">
+<img src="assets/documentation/cssvalidator2.jpeg">
+
+### Javascript validator
+<img src="assets/documentation/jsvalidator-3.jpeg">
+
+## References/citations
+
