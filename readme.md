@@ -32,7 +32,7 @@ The project has took many twists and turns along the way. It was orginally a sto
 
 ### Wireframes and mock ups
 <img src="assets/images/wireframe/phone.jpg">
-
+<img src="assets/images/wireframe/tablet.jpeg">
 
 
 ### Mock-ups
