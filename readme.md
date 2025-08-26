@@ -54,4 +54,18 @@ For the desktop the rsults were very pleasing but not the same for the mobile ve
 <img src="assets/documentation/jsvalidator-3.jpeg">
 
 ## References/citations
+https://www.newcastlecastle.co.uk/
 
+### Tools used 
+<ul>
+<li>Canva<li>
+Figma<li>
+Jshint<li>
+https://jshint.com/
+
+https://www.site24x7.com/tools/javascript-validator.html
+
+## Tutorials 
+
+Build A Quiz App With JavaScript
+https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s
