@@ -54,23 +54,52 @@ For the desktop the rsults were very pleasing but not the same for the mobile ve
 <img src="assets/documentation/jsvalidator-3.jpeg">
 
 ## References/citations
+
+https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
+
+https://www.chroniclelive.co.uk/news/history/newcastles-gallowgate-strawberry-fields-public-10079019#:~:text=Newcastle%20West%20End%20played%20there,3Comments
+
 https://www.newcastlecastle.co.uk/
+
+https://blackfriarsrestaurant.co.uk/blackfriars-history/
+
+https://www.newcastle.gov.uk/our-city/history-and-heritage
+
+https://castellogy.com/history/medieval-money
+
+https://www.wilcuma.org.uk/the-history-of-northumberland-after-1066/medieval-newcastle/
+
+https://co-curate.ncl.ac.uk/history-of-st-andrews-church-newcastle/
+
+https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
+
 
 ### Tools used 
 <ul>
+<li>Canva</li>
+<li>Figma</li>
+<li>Jshint</li> 
 
-<li>Canva<li>
-Figma<li>
-Jshint<li>
-https://jshint.com/<li>
-VS Code<li>
-CSS<li>
-Jigsaw/W3 Validator<li>
-javascript-validator.html
-https://www.site24x7.com/tools<li>
-apple notes for mac<li>
+https://jshint.com/
+<li>VS Code</li>
+<li>CSS</li>
+<li>Jigsaw/W3 Validator</li>
+<li>javascript-validator</li>
+
+https://www.site24x7.com/tools
+
+<li>Apple notes for Mac</li>
+<li>Freesvg</li>
+<li>MDN Docs</li>
+
+https://freesvg.org/
+
 
 ## Tutorials 
 
-Build A Quiz App With JavaScript
-https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s
+"Build A Quiz App With JavaScript"
+https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s<br>
+CSS 
+https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php<br>
+"HTML & CSS for Absolute Beginners: Responsive images"
+https://www.youtube.com/watch?v=gn0OaxS1OdY
