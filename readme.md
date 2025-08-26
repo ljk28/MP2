@@ -37,3 +37,9 @@ The project has took many twists and turns along the way. It was orginally a sto
 <img src="assets/images/mockup/desk.jpeg">
 <img src="assets/images/mockup/ipad.jpeg">
 <img src="assets/images/mockup/phone.jpeg">
+
+### Lighthouse results...
+<img src="assets/documentation/lighthousemob.jpeg">
+<img src="assets/documentation/lighthousedesktop.jpeg">
+
+For the desktop the rsults were very pleasing but not the same for the mobile version. 
