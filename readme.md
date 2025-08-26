@@ -33,7 +33,7 @@ The project has took many twists and turns along the way. It was orginally a sto
 ### Wireframes and mock ups
 <img src="assets/images/wireframe/phone.jpg">
 <img src="assets/images/wireframe/tablet.jpeg">
-
+<img src="assets/images/wireframe/desktop.jpeg">
 
 ### Mock-ups
 <img src="assets/images/mockup/desk.jpeg">
@@ -49,6 +49,7 @@ For the desktop the rsults were very pleasing but not the same for the mobile ve
 <img src="assets/documentation/htmlvalidator2.jpeg">
 <img src="assets/documentation/htmlvalidator1.jpeg">
 <img src="assets/documentation/cssvalidator2.jpeg">
+
 
 ### Javascript validator
 <img src="assets/documentation/jsvalidator-3.jpeg">
