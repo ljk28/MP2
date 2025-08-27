@@ -60,8 +60,8 @@ const correct = selectButton.dataset.correct;
 setStatusClass(document.body, correct);
 Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct);
-})
-};
+});
+}
 
 
 nextButton.classList.remove('hide');
@@ -263,8 +263,4 @@ const questions = [{
 // The above code was take and dapated from the following source:
 // https://www.youtube.com/watch?v=riDzcEQbX6k 
 // Build a Quiz App With JavaScript //
-
-
-function showtexteElement() {
-    document.getElementById("instructions").style.display = "none";
-}
+// by Web Dev Simplified //
