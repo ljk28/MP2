@@ -264,5 +264,5 @@ const questions = [{
 // https://www.youtube.com/watch?v=riDzcEQbX6k 
 // Build a Quiz App With JavaScript //
 // by Web Dev Simplified //
-// https://github.com/WebDevSimplified/JavaScript-Quiz-App
+// https://github.com/WebDevSimplified/JavaScript-Quiz-App //
 
