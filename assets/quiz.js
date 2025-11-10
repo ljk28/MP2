@@ -6,7 +6,7 @@ const startButton = document.getElementById('start');
 
 
 
-startButton.addEventListener('click', page2.html);
+startButton.addEventListener('click', page1.html);
 
 
 
