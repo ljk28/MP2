@@ -71,28 +71,6 @@ const quizData = [
   showQuestion();
 
 
-
-
-    {
-        question: ,
-        answers: [{
-                text: ,
-                correct: false
-            },
-            {
-                text: ,
-                correct: false
-            },
-            {
-                text: '',
-                correct: true
-            },
-            {
-                text: '',
-                correct: false
-            }
-        ]
-    },
     {
         question: 'What did a barber cut in medieval Newcastle?',
         answers: [{
