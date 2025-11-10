@@ -104,3 +104,7 @@ CSS
 https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php<br>
 "HTML & CSS for Absolute Beginners: Responsive images"
 https://www.youtube.com/watch?v=gn0OaxS1OdY
+
+Adding links to new pages using js in html pages...
+https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/
+
