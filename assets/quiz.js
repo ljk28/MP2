@@ -7,14 +7,14 @@
 //
 const quizData = [
     {
-      question: "What is the capital of France?",
-      options: ["Paris", "Madrid", "Rome", "Berlin"],
-      answer: "Paris"
+      question: 'Did Newcastle have knights?',
+      options: ["Maybe", "Thousands", "Yes", "No"],
+      answer: "Yes"
     },
     {
-      question: "What is the largest planet in our solar system?",
-      options: ["Jupiter", "Saturn", "Mars", "Earth"],
-      answer: "Jupiter"
+      question: 'what did the Gongfarmers do in the castle?',
+      options: ["'Clang and clong'", "Is that even a real job? Come on!", "cleaned up the cesspits and dirty corners of the castle", "farmed for the now extinct animal, Gonglias"],
+      answer: "cleaned up the cesspits and dirty corners of the castle"
     },
     {
       question: "Who wrote 'Hamlet'?",
@@ -71,43 +71,24 @@ const quizData = [
   showQuestion();
 
 
-const questions = [{
-        question: 'Did Newcastle have knights?',
-        answers: [{
-                text: 'maybe',
-                correct: false
-            },
-            {
-                text: 'thousands',
-                correct: false
-            },
-            {
-                text: 'Yes, but not many',
-                correct: true
-            },
-            {
-                text: 'no',
-                correct: false
-            }
-        ]
-    },
+
 
     {
-        question: 'what did the Gongfarmers do in the castle?',
+        question: ,
         answers: [{
-                text: 'Clang and clong',
+                text: ,
                 correct: false
             },
             {
-                text: 'Is that even a real job? Come on!',
+                text: ,
                 correct: false
             },
             {
-                text: 'cleaned up the cesspits and dirty corners of of the castle',
+                text: '',
                 correct: true
             },
             {
-                text: 'farmed for the now extinct animal, Gonglias',
+                text: '',
                 correct: false
             }
         ]
