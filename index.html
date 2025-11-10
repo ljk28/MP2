@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image" href="assets/images/favicon.png">
+    <link rel="icon" type="image/text/css" href="assets/images/favicon.png">
     <link href="assets/style.css" rel="stylesheet">
     <title>Newcastle quiz game</title>
 </head>
 <body>
     <!-- https://freesvg.org/knight-in-attack ref for knight-->
     <img alt="knight" src="assets/images/knighthorse2.svg" id="knight">
-    <div class="container">
-        <div id="question-container" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+    <div class="quiz">
+            <div id="question"></div>
+            <div id="options">
+             <button id="submit">Submit</button>
             </div>
         </div>
         <div id="instructions">
