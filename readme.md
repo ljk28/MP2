@@ -30,6 +30,10 @@ This is because even though the main page is blue and black, Newcastle is famous
 ## Bugs and Development 
 The project has took many twists and turns along the way. It was orginally a story game but this was a little too complex and convoluted to keep it going. Thus, th choice was made to abandon the text adventure for a more simple quiz game about the city instead. This was meant to be easier to write the code and easier to maintain and alter at a later stage. 
 
+The evolution of this prject has been frought wth difficulties. I had to get rid of the previous code for the JS and find a new way to implement thre quiz. 
+
+As the code seemingly didn't work and didn't move on to the next question I had to check the code that was a problem. Finding a new tutorial with the code in place and then customising it. 
+
 ### Wireframes and mock ups
 <img src="assets/images/wireframe/phone.jpg">
 <img src="assets/images/wireframe/tablet.jpeg">
