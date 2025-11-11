@@ -92,7 +92,7 @@ const quizData = [
     quiz.innerHTML = `
       <h1>Quiz Completed!</h1>
       <p>Your score: ${score}/${quizData.length}</p>
-      <h2>Play again, O Valiant Knowledge Knight!</h2>
+    
     `;
   }
   

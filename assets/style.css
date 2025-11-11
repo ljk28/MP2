@@ -25,6 +25,7 @@ h1 {
 }
 
 #question {
+  display: grid;
   margin-bottom: 20px;
   font-size: 3.1rem;
    font-family: 'Macondo', cursive;
@@ -34,7 +35,7 @@ h1 {
 
 #options {
   display: grid;
- 
+
    font-family: 'Macondo';
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
