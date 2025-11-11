@@ -1,7 +1,4 @@
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
 .macondo-regular {
   font-family: "Macondo", cursive;
   font-weight: 400;
@@ -9,7 +6,7 @@
 }
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
-  display: flex;
+  display: block;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -19,15 +16,19 @@
 }
 
 h1 {
+  display: inline-block
   text-align: top;
   font-family: 'Macondo', cursive;
-  color:#ffffff;
+  color:#38b6ff;
    margin-top: -20px;
     margin-bottom: 20px;
 }
 
 #question {
   margin-bottom: 20px;
+  font-size: 3.1rem;
+   font-family: 'Macondo', cursive;
+  color:#ffffff;
 }
 
 #options {

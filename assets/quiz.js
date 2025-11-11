@@ -19,7 +19,7 @@ const quizData = [
     {
       question: "What did a barber cut in medieval Newcastle?",
       options: ["Cut the corner", "Cut the cake", "hair and also, until it was banned by decree, would help with procedures like bleeding on unwitting patients", "barbed wire"],
-      answer: "William Shakespeare"
+      answer: "hair and also, until it was banned by decree, would help with procedures like bleeding on unwitting patients"
     },
     {
       question: "'Is Blackfriars where they fry eggs and bacon?",
@@ -39,7 +39,7 @@ const quizData = [
     {
         question: "In medieval Newcastle, what was sold as a high commidity?",
         options: ["wool, traded and sold a lot of it", "iphones", "pottery", "computer chips"],
-        answer: "River Tyne"
+        answer: "wool, traded and sold a lot of it"
     },
     {
         question: "Did Newcastle have a sheriff?",
@@ -96,6 +96,9 @@ const quizData = [
   }
   
   showQuestion();
+gameOverHTML.addEventListener("click", restart); 
+  const newQuiz = document.getElementById("clickable"); //this gets the element 
+newQuiz.addEventListener("click", reset); //this captures the click and calls the reset() function.
 
 // End of code taken and adapted from:
 // https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
