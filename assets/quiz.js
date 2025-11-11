@@ -46,8 +46,6 @@ const quizData = [
         options: ["No", "yes, they still do", "Get off your horse and drink and some milk", "wrong country, that's only in America"],
         answer: "yes, they still do"
     },
-
-
     
 
     // Add more questions here...
