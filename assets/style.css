@@ -9,12 +9,13 @@
 }
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
+  display: flex;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #66ebf0;
+  background-color: rgba (#e10606, #000000, #e10606);
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+  
 }
 
 h1 {
