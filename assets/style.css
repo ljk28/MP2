@@ -1,18 +1,13 @@
 
 
 
-:root {
-    --neutral: #000000;
-    --wrong: #ff3131;
-    --correct: #38b6ff;
-}
 
 .macondo-regular {
   font-family: "Macondo", cursive;
   font-weight: 400;
   font-style: normal;
 }
-/* code below taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
+/* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
   max-width: 500px;
   margin: 0 auto;
@@ -22,11 +17,12 @@
   box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
 }
 
-
-
 h1 {
-  text-align: center;
-  color: #333333;
+  text-align: top;
+  font-family: 'Macondo', cursive;
+  color:#ffffff;
+   margin-top: -20px;
+    margin-bottom: 20px;
 }
 
 #question {
@@ -39,11 +35,11 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
 }
 
-button {
-  display: block;
+#button {
+  display: flex;
   margin: 0 auto;
   padding: 10px 20px;
-  background-color: rgb(227, 238, 10), 245, 161);
+  background-color: rgb(, 238, 10), 245, 161);
   color: #131313;
   border: none;
   border-radius: 5px;
@@ -75,13 +71,11 @@ body {
 
 
 
-.btn:hover {
+#button:hover {
     border-color: black;
     color: #ff3131;
 }
 
-    
- 
 #knight {
     display: flex;
     justify-content: center;
@@ -93,7 +87,6 @@ body {
     margin-top: 200px;
 }
 
-
 #logo {
     display: flex;
     justify-content: top;
@@ -102,8 +95,6 @@ body {
     height: auto;
     max-width: 100%;
    margin-left: 30px;
-    
-    
 }
 
 /* linear gradient background info taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
