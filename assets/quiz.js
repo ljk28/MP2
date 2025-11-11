@@ -92,13 +92,11 @@ const quizData = [
     quiz.innerHTML = `
       <h1>Quiz Completed!</h1>
       <p>Your score: ${score}/${quizData.length}</p>
+      <h2>Play again, O Valiant Knowledge Knight!</h2>
     `;
   }
   
   showQuestion();
-gameOverHTML.addEventListener("click", restart); 
-  const newQuiz = document.getElementById("clickable"); //this gets the element 
-newQuiz.addEventListener("click", reset); //this captures the click and calls the reset() function.
 
 // End of code taken and adapted from:
 // https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2

@@ -107,8 +107,10 @@ https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s<br>
 CSS 
 https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php<br>
 "HTML & CSS for Absolute Beginners: Responsive images"
-https://www.youtube.com/watch?v=gn0OaxS1OdY
+https://www.youtube.com/watch?v=gn0OaxS1OdY<br>
 
 Adding links to new pages using js in html pages...
 https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/
-
+<br>
+CSS placement of title
+https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.
