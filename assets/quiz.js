@@ -91,8 +91,8 @@ const quizData = [
   function showResult() {
     quiz.innerHTML = `
       <h1 id="done">Quiz Completed!</h1>
-      <div id=score-container>
-      <p>Your score ${score}/${quizData.length}</p>
+      <div id="score-container">
+      <p id="pscore">Your score ${score}/${quizData.length}</p>
       <div>
       
     

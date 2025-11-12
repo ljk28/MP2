@@ -102,6 +102,16 @@ p {
     margin-top: 10px;
 }
 
+#pscore {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Macondo', cursive;
+    font-size: 7rem;
+    color: #00d0ff;
+    font-display: inline-block;
+}
+
 body {
      padding: 0;
     display: flex;
