@@ -30,11 +30,10 @@ h1 {
 
 #done {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
   font-size: 5rem;
    font-family: 'Macondo', cursive;
-  color:#ffffff;
+color: linear-gradient(to right, black, #ff3131, black);
   
 }
 
@@ -75,28 +74,24 @@ font-family: 'Macondo'cursive;
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
 p {
-  position: absolute;
-    display: flex-end;
+  position: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Macondo';
-    color: #132154;
+    color: #000000;
+    font-style: oblique;
     font-size: 5rem;
-    max-width: 600px;
     margin-top: -100px;
-   z-index: 10;
-
-  
+    z-index: 10;
 }
 
 #score-container {
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    place-items: center;
     position: absolute;
     height: auto;
     width: auto;
-
     border-radius: 15px;
     padding: 20px;
     margin-top: 10px;
@@ -104,12 +99,10 @@ p {
 
 #pscore {
   display: flex;
-    justify-content: center;
+  justify-content: center;
     align-items: center;
-    font-family: 'Macondo', cursive;
-    font-size: 7rem;
-    color: #00d0ff;
-    font-display: inline-block;
+  
+   
 }
 
 body {
@@ -122,12 +115,6 @@ body {
     background: linear-gradient(to right, black, #38B6FF, black);
 }
 
-
-
-#button:hover {
-    border-color: black;
-    color: #ff3131;
-}
 
 #knight {
     display: flex;
