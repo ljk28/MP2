@@ -17,7 +17,7 @@
 }
 /* Title styling for h1 adapted from https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.  /*/
 h1 {
-  
+  position: relative;
    display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,16 @@ h1 {
   font-family: 'Macondo', cursive;
   font-size: 2.8rem;
   color: linear-gradient(to right, black, #38B6FF, black);
+}
+
+#done {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+   font-family: 'Macondo', cursive;
+  color:#ffffff;
+  color: linear-gradient(to right, black, #ff3131, black);
 }
 
 #question {
