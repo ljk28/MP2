@@ -25,17 +25,9 @@ h1 {
   display: flex;
   font-family: 'Macondo', cursive;
   font-size: 2.8rem;
-  color: linear-gradient(to right, black, #38B6FF, black);
-}
-
-#done {
-  display: flex;
-  place-items: center;
-  font-size: 5rem;
-   font-family: 'Macondo', cursive;
-color: linear-gradient(to right, black, #ff3131, black);
   
 }
+
 
 #question {
   display: flex;
@@ -48,6 +40,7 @@ color: linear-gradient(to right, black, #ff3131, black);
 }
 
 #options {
+
   display: grid;
     column-gap: 10px;
   row-gap: 4em;
@@ -56,9 +49,10 @@ color: linear-gradient(to right, black, #ff3131, black);
    font-family: 'Macondo';
   grid-template-columns: repeat(2, 1fr);
    grid-auto-rows: minmax(100px, auto);
-
+  opacity: 0.5;
+  margin-top: 400px;
 }
-
+//* Styling for buttons/options adapted from https://www.w3schools.com/css/css3_buttons.asp /*/ 
 #button {
   display: grid;
   justify-content: center;
@@ -70,6 +64,7 @@ font-family: 'Macondo'cursive;
   cursor: pointer;
   font-family: 'Macondo';
   font-size: large;
+  color: #ffffff;
 }
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
@@ -95,14 +90,15 @@ p {
     border-radius: 15px;
     padding: 20px;
     margin-top: 10px;
+    color: #ff3131;
 }
 
 #pscore {
   display: flex;
   justify-content: center;
     align-items: center;
-  
-   
+    color: #000000;
+    
 }
 
 body {
