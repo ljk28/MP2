@@ -6,17 +6,21 @@
 }
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
-  display: block;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
+ 
   font-family: 'Macondo';
   font-size: 2.5rem;
-  color:#ffffff;
+   color: linear-gradient(to right, black, #ff3131, black);
 }
 /* Title styling for h1 adapted from https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.  /*/
 h1 {
-  position: absolute;
+  
+   display: flex;
+    justify-content: center;
+    align-items: center;
   top: -15px;
   display: flex;
   font-family: 'Macondo', cursive;
@@ -25,43 +29,51 @@ h1 {
 }
 
 #question {
-  display: grid;
-  margin-bottom: 20px;
-  font-size: 3.1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 3rem;
    font-family: 'Macondo', cursive;
   color:#ffffff;
-  
+  color: linear-gradient(to right, black, #ff3131, black);
 }
 
 #options {
   display: grid;
-
+    column-gap: 10px;
+  row-gap: 4em;
+  font-family: 'Macondo', cursive;
+  position: fixed;
    font-family: 'Macondo';
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-bottom: 20px;
+   grid-auto-rows: minmax(100px, auto);
+
 }
 
 #button {
   display: grid;
+  justify-content: center;
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 50px auto;
 font-family: 'Macondo'cursive;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   font-family: 'Macondo';
+  font-size: large;
 }
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Macondo';
-    font-size: 2.5rem;
-    color: white;
-    text-align: center;
+    font-size: 5rem;
     max-width: 600px;
-    margin-top: -20px;
     margin-bottom: 20px;
+   z-index: 10;
+   font-display: linear-gradient(to right, black, #ff3131, black);
   
 }
 
@@ -82,11 +94,6 @@ body {
     color: #ff3131;
 }
 
-
-#options:hover {
-    border-color: black;
-    color: #ff3131;
-}
 #knight {
     display: flex;
     justify-content: center;
@@ -98,15 +105,6 @@ body {
     margin-top: 200px;
 }
 
-#logo {
-    display: flex;
-    justify-content: top;
-    align-items: top;
-    align-self: center;
-    height: auto;
-    max-width: 100%;
-   margin-left: 30px;
-}
 
 /* linear gradient background info taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
 
