@@ -17,7 +17,7 @@
 }
 /* Title styling for h1 adapted from https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.  /*/
 h1 {
-  position: relative;
+  position: absolute;
    display: flex;
     justify-content: center;
     align-items: center;
