@@ -32,10 +32,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 5rem;
    font-family: 'Macondo', cursive;
   color:#ffffff;
-  color: linear-gradient(to right, black, #ff3131, black);
+  
 }
 
 #question {
@@ -75,16 +75,31 @@ font-family: 'Macondo'cursive;
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
 p {
-    display: flex;
+  position: absolute;
+    display: flex-end;
     justify-content: center;
     align-items: center;
     font-family: 'Macondo';
+    color: #132154;
     font-size: 5rem;
     max-width: 600px;
-    margin-bottom: 20px;
+    margin-top: -100px;
    z-index: 10;
-   font-display: linear-gradient(to right, black, #ff3131, black);
+
   
+}
+
+#score-container {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: auto;
+    width: auto;
+
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 body {
