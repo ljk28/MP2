@@ -4,86 +4,58 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  max-width: 500px;
+    max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: "Macondo", cursive;
+  font-style: normal;
  
-  font-family: 'Macondo';
-  font-size: 2.5rem;
-   color: linear-gradient(to right, black, #ff3131, black);
 }
 /* Title styling for h1 adapted from https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.  /*/
-h1 {
+h1,h2 {
   position: absolute;
    display: flex;
     justify-content: center;
     align-items: center;
-  top: -15px;
+      text-align: center;
+  color: #000000;
+  font-style: bold;
+  top: -15em;
   display: flex;
   font-family: 'Macondo', cursive;
   font-size: 2.8rem;
-  
-}
-h2 {
-   display: start;
-    justify-content: start;
-    align-items: start;
- 
-  display: flex;
-  font-family: 'Macondo', cursive;
-  font-size: 1.8rem;
-  color: #ffffff;
-  margin-top:-250px;
 }
 
-h3 {
-   display: start;
-    justify-content: start;
-    align-items: start;
-  display: flex;
-  font-family: 'Macondo', cursive;
-  font-size: 1.5rem;
-  color: #ffffff;
-  margin-top:-200px;
-}
 
 #question {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  font-size: 50px;
-   font-family: 'Macondo', cursive;
+  font-family: 'Macondo', cursive;
   color:#ffffff;
-  margin-bottom: 120px;
-
+  margin-bottom: 10rem;
 }
 
 #options {
-  display: grid;
-
-    column-gap: 5em;
-  row-gap: 5em;
-  font-family: 'Macondo', cursive;
+    display: grid;
+    column-gap: 5px;
   position: fixed;
   grid-template-columns: repeat(1, 2fr);
-   grid-auto-rows: minmax(100px, auto);
-  opacity: 0.5;
-  margin-top: 250px;
+  margin-top: 25rem;
   
 }
 /* Styling for buttons/options adapted from https://www.w3schools.com/css/css3_buttons.asp /*/ 
 #button {
-  display: grid;
+  display: block;
   column-gap: 5em;
-  row-gap: 5em;
-
-  justify-content: center;
-  position: absolute;
+   display: block;
   margin: 0 auto;
-  padding: 50px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 font-family: 'Macondo'cursive;
   border-radius: 20px;
   font-size: large;
@@ -91,17 +63,20 @@ font-family: 'Macondo'cursive;
 
 }
 
+#button:hover {
+  background-color: #45a049;
+}
+
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
 
  p {
-  display: flex-start;
-  justify-content: flex-start;
-    align-items: flex-start;
+  display: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Macondo', cursive;
     font-size: 1.5rem;
     color: #ffffff;
-    margin-top: -30vh;
-    
+    margin-top: -20vh;
 }
 
 
@@ -121,16 +96,6 @@ font-family: 'Macondo'cursive;
     color: #000000;
     margin-top: 30vh;
     
-}
-
-#instructions {
-  display: flex;
-  justify-content: start;
-    align-items: start;
-    font-family: 'Macondo', cursive;
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin-top: 20vh;
 }
 
 body {

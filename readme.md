@@ -114,3 +114,6 @@ https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/
 <br>
 CSS placement of title
 https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.
+
+CSS article for REM, EM and PX...
+https://joshcollinsworth.com/blog/never-use-px-for-font-size
