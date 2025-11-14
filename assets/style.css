@@ -27,7 +27,31 @@ h1 {
   font-size: 2.8rem;
   
 }
+h2 {
+  
+   display: flex-start;
+    justify-content: flex-start;
+    align-items: start;
+  top: 20px;
+  display: flex;
+  font-family: 'Macondo', cursive;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-top:-250px;
+}
 
+h3 {
+  
+   display: flex-start;
+    justify-content: flex-start;
+    align-items: start;
+  top: 60px;
+  display: flex;
+  font-family: 'Macondo', cursive;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top:-200px;
+}
 
 #question {
   display: flex;
@@ -67,18 +91,17 @@ font-family: 'Macondo'cursive;
 }
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
-p {
-  position: flex;
-    display: flex;
-    justify-content: center;
+
+ {
+  display: flex;
+  justify-content: center;
     align-items: center;
-    font-family: 'Macondo';
-    color: #000000;
-    font-style: oblique;
-    font-size: 5rem;
-    margin-top: -100px;
-    z-index: 10;
+    font-family: 'Macondo', cursive;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 100px;
 }
+
 
 #score-container {
     display: flex;
@@ -123,7 +146,7 @@ body {
 
 
 /* linear gradient background info taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
-
+/* https://css-tricks.com/a-complete-guide-to-css-media-queries/ */
 /*Media Queries/*/
 @media screen and (min-width: 600px) {
   #quiz {
