@@ -61,10 +61,9 @@ font-family: 'Macondo'cursive;
   font-size: large;
   color: #ffffff;
 
-}
-
-#button:hover {
-  background-color: #45a049;
+}::after:hover, #options:hover {
+  display: grid;
+  color: #38B6FF;
 }
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
