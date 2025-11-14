@@ -46,6 +46,7 @@ h1  {
   position: absolute;
   grid-template-columns: repeat(1, 2fr);
   margin-top: 25rem;
+  font-size: 2rem;
   
 }
 /* Styling for buttons/options adapted from https://www.w3schools.com/css/css3_buttons.asp /*/ 
@@ -125,9 +126,26 @@ body {
 /* linear gradient background info taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
 /* https://css-tricks.com/a-complete-guide-to-css-media-queries/ */
 /*Media Queries/*/
+
+@media  screen and (min-width: 300px) {
+  #quiz {
+    font-size: 5rem;
+  }
+  #question {
+    font-size: 3rem;
+  }
+  p    { 
+    font-size: 2rem;
+  }
+  #options {
+    font-size: 1.5rem;
+
+  }
+}
+
 @media screen and (min-width: 600px) {
   #quiz {
-    font-size: 3rem;
+    font-size: 10rem;
   }
   #question {
     font-size: 4rem;
@@ -135,20 +153,44 @@ body {
   p    { 
     font-size: 3rem;
   }
+  #options {
+    font-size: 2rem;
+
+  }
 }   
 @media screen and (min-width: 900px) {
   #quiz {
-    font-size: 4rem;
+    font-size: 20rem;
   }
   #question {
     font-size: 5rem;
+  }
+  #options {
+    font-size: 3rem;
+
   }
 } 
 @media screen and (min-width: 1200px) {
   #quiz {
-    font-size: 5rem;
+    font-size: 30rem;
   }
   #question {
     font-size: 6rem;
   }
+  #options {
+    font-size: 4rem;
+
+  }
 }   
+@media screen and (min-width: 1500px) {
+  #quiz {
+    font-size: 40rem;
+  }
+  #question {
+    font-size: 7rem;
+  }
+  #options {
+    font-size: 5rem;
+
+  }
+}
