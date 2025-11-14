@@ -8,7 +8,7 @@
 
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
-    max-width: 500px;
+    max-width: 500rem;
   margin: 0 auto;
   padding: 20px;
   border-radius: 5px;
@@ -17,7 +17,7 @@
  
 }
 /* Title styling for h1 adapted from https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.  /*/
-h1,h2 {
+h1  {
   position: absolute;
    display: flex;
     justify-content: center;
@@ -32,7 +32,9 @@ h1,h2 {
 }
 
 
+
 #question {
+  font-size: 3rem;
   font-family: 'Macondo', cursive;
   color:#ffffff;
   margin-bottom: 10rem;
@@ -41,7 +43,7 @@ h1,h2 {
 #options {
     display: grid;
     column-gap: 5px;
-  position: fixed;
+  position: absolute;
   grid-template-columns: repeat(1, 2fr);
   margin-top: 25rem;
   
@@ -61,49 +63,49 @@ font-family: 'Macondo'cursive;
   font-size: large;
   color: #ffffff;
 
-}::after:hover, #options:hover {
-  display: grid;
-  color: #38B6FF;
 }
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
 
  p {
-  display: center;
+  display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: 'Macondo', cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ffffff;
-    margin-top: -20vh;
-}
+    margin-top: 50em;
 
+}
 
 #score-container {
-    display: flex-end;
+    display: flex;
     justify-content: center;
-    place-items: center;
-    border-radius: 15px;
-    padding: 20px;
-    margin-top: 3vh;
+    align-items: center;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 20rem;
+
 }
 
-#pscore {
-  display: flex-end;
-  justify-content: flex-end;
-    align-items: center;
-    color: #000000;
-    margin-top: 30vh;
-    
+#score {
+    font-display: block;
+    display: flex;
+    font-size: 4rem;
+    font-weight: bold;
+   margin-block-start: 0em;
+   
 }
 
 body {
-     padding: 0;
     display: flex;
  justify-content: center;
     align-items: center;
-    height: 75vh;
-    width: auto;
+    height: 100vh;
+    max-width: auto;
     background: linear-gradient(to right, black, #38B6FF, black);
 }
 
@@ -113,7 +115,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 100vh;
+    height: 40rem;
     z-index: -8;
     max-inline-size: 100%;
     margin-top: 200px;
