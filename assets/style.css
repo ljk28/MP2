@@ -28,11 +28,10 @@ h1 {
   
 }
 h2 {
-  
-   display: flex-start;
-    justify-content: flex-start;
+   display: start;
+    justify-content: start;
     align-items: start;
-  top: 20px;
+ 
   display: flex;
   font-family: 'Macondo', cursive;
   font-size: 1.8rem;
@@ -41,11 +40,9 @@ h2 {
 }
 
 h3 {
-  
-   display: flex-start;
-    justify-content: flex-start;
+   display: start;
+    justify-content: start;
     align-items: start;
-  top: 60px;
   display: flex;
   font-family: 'Macondo', cursive;
   font-size: 1.5rem;
@@ -57,69 +54,83 @@ h3 {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  font-size: 3rem;
+  font-size: 50px;
    font-family: 'Macondo', cursive;
   color:#ffffff;
-  color: linear-gradient(to right, black, #ff3131, black);
   margin-bottom: 120px;
+
 }
 
 #options {
   display: grid;
+
     column-gap: 5em;
   row-gap: 5em;
   font-family: 'Macondo', cursive;
   position: fixed;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 2fr);
    grid-auto-rows: minmax(100px, auto);
   opacity: 0.5;
   margin-top: 250px;
+  
 }
-//* Styling for buttons/options adapted from https://www.w3schools.com/css/css3_buttons.asp /*/ 
+/* Styling for buttons/options adapted from https://www.w3schools.com/css/css3_buttons.asp /*/ 
 #button {
   display: grid;
+  column-gap: 5em;
+  row-gap: 5em;
+
   justify-content: center;
+  position: absolute;
   margin: 0 auto;
   padding: 50px auto;
 font-family: 'Macondo'cursive;
-  border: none;
   border-radius: 20px;
-  cursor: pointer;
-  font-family: 'Macondo';
   font-size: large;
   color: #ffffff;
+
 }
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
 
- {
-  display: flex;
-  justify-content: center;
-    align-items: center;
+ p {
+  display: flex-start;
+  justify-content: flex-start;
+    align-items: flex-start;
     font-family: 'Macondo', cursive;
     font-size: 1.5rem;
     color: #ffffff;
-    margin-top: 100px;
+    margin-top: -30vh;
+    
 }
 
 
 #score-container {
-    display: flex;
+    display: flex-end;
     justify-content: center;
     place-items: center;
-    position: absolute;
     border-radius: 15px;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 3vh;
 }
 
 #pscore {
-  display: flex;
-  justify-content: center;
+  display: flex-end;
+  justify-content: flex-end;
     align-items: center;
     color: #000000;
-    margin-top: ;
+    margin-top: 30vh;
     
+}
+
+#instructions {
+  display: flex;
+  justify-content: start;
+    align-items: start;
+    font-family: 'Macondo', cursive;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 20vh;
 }
 
 body {
