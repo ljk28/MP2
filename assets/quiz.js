@@ -87,20 +87,36 @@ const quizData = [
       showResult();
     }
   }
-  
+
+
   function showResult() {
     quiz.innerHTML = `
       <div id="score-container">
       <p id="score">Your score ${score}/${quizData.length}</p>
-      <div>
       
-    
     `;
+  
   }
   
   showQuestion();
+
 
 // End of code taken and adapted from:
 // https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
 // Building an interactive quiz with HTML, CSS and JavaScript //
 // by Code Picker //
+
+
+  const restartBtn = document.getElementById("Restart Quiz");
+  restartBtn.addEventListener("click", restartButton);    
+ function restartButton() {
+    const scoreContainer = document.getElementById("score-container");
+    if (restartButton.clicked = true) {
+      scoreContainer.style.display = "none";
+      currentQuestion = 0;
+      score = 0;
+      showQuestion(); 
+    }
+  }
+
+  
