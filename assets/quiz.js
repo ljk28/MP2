@@ -106,7 +106,12 @@ const quizData = [
 // Building an interactive quiz with HTML, CSS and JavaScript //
 // by Code Picker //
 
-
+// Restart button code taken and adapted from Emmet suggestions and:
+// https://www.youtube.com/watch?v=zZRX51xcIAg
+// "Building an Interactive Quiz App with JavaScript"
+// By 
+// Netcreed
+//
   const restartBtn = document.getElementById("Restart Quiz");
   restartBtn.addEventListener("click", restartButton);    
  function restartButton() {

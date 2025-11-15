@@ -108,6 +108,24 @@ font-family: 'Macondo'cursive;
    
 }
 
+#Restart-Quiz {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    margin-top: 70rem;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Macondo', cursive;
+    border-radius: 20px;
+    font-size: large;
+    color: #ffffff;
+    background-color: #38B6FF;
+} 
+
 body {
     display: flex;
  justify-content: center;
