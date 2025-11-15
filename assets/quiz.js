@@ -106,6 +106,11 @@ const quizData = [
 // Building an interactive quiz with HTML, CSS and JavaScript //
 // by Code Picker //
 
+// the following code for the restart button is taken and adapted from: geekforgeeks.org
+// https://www.geeksforgeeks.org/how-to-add-restart-button-in-javascript-quiz-app/
+// How to add Restart Button in JavaScript Quiz App
+// By GeeksforGeeks
+// And also from:
 // Restart button code taken and adapted from Emmet suggestions and:
 // https://www.youtube.com/watch?v=zZRX51xcIAg
 // "Building an Interactive Quiz App with JavaScript"
