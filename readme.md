@@ -108,6 +108,20 @@ CSS
 https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php<br>
 "HTML & CSS for Absolute Beginners: Responsive images"
 https://www.youtube.com/watch?v=gn0OaxS1OdY<br>
+https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
+// Building an interactive quiz with HTML, CSS and JavaScript //
+// by Code Picker //
+// the following code for the restart button is taken and adapted from: geekforgeeks.org
+// https://www.geeksforgeeks.org/how-to-add-restart-button-in-javascript-quiz-app/
+// How to add Restart Button in JavaScript Quiz App
+// By GeeksforGeeks
+// And also from:
+// Restart button code taken and adapted from Emmet suggestions and:
+// https://www.youtube.com/watch?v=zZRX51xcIAg
+// "Building an Interactive Quiz App with JavaScript"
+// By 
+// Netcreed
+
 
 Adding links to new pages using js in html pages...
 https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/

@@ -23,7 +23,7 @@ const quizData = [
     },
     {
       question: "Is Blackfriars where they fry eggs and bacon?",
-      options: ["No", "It is a place where the priests and friars would live and work for the church", "yes, I've seen their frying pan collection", "I prefer grilled to fried food"],
+      options: ["No", "It is a place where the priests and friars would live and work for the church", "Yes, I've seen their frying pan collection", "I prefer grilled to fried food"],
       answer: "It is a place where the priests and friars would live and work for the church"
     },
     {
@@ -37,7 +37,7 @@ const quizData = [
         answer: "A latin name Novum Castellum meaning new castle"
     },
     {
-        question: "In medieval Newcastle, what was sold as a high commidity?",
+        question: "In medieval Newcastle, what was sold as a high commodity?",
         options: ["Wool, traded and sold a lot of it", "Iphones", "Pottery", "Computer Chips"],
         answer: "Wool, traded and sold a lot of it"
     },
