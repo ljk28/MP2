@@ -1,26 +1,25 @@
 ## Newcastle Castle Quiz Game
 <img src="assets/images/final-logo.png">
 
-### Introduction 
-A simple quiz game to help tourists, teachers and and anyone else to traverse the medieval history of Newcastle upon Tyne.
 ## Rationale
-The idea behind the original was to showcase and tell in story form the history of medieval Newcastle. The quiz has took over and made it about testing the knowledge of users instead. 
+A simple quiz game to help tourists, teachers and and anyone else to traverse the medieval history of Newcastle upon Tyne.
+
+The quiz tests the users local medieval knowledge.
 Seeing how much the tourists actualy remember, or the students whilst on a day trip outside of the classroom.
 
-Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on was the medieval era.
+Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on was the medieval era. I have regurlarly walked past part of old Newcastle on my way to work many times.
 
-The quiz game is a great way to help in engaging the users learning and capacity to retain information.
+The quiz game is a great way to help engage users learning and capacity to retain information. This is short term memory feedback for the teachers to check if their students are actually paying attention or not. 
 
-With a focus on local history, users can test their depth of knowledge with an interative feature as start and next buttons. 
 
 ## User Stories 
 #### User Story 1
 A local tourist company would like an engaging app/website for their customers to enjoy and learn about medieval northeast England history. Nothing too long or difficult but enough to test the knowledge at the end of the tour with a prize draw for the most correct answers. 
 #### User Story 2
-A school is currently covering medieval history in their curriculum and would like to use the website to help students revise for the upcoming exam.
+A school is currently covering medieval history in their curriculum and would like to use the website to help students revise for the upcoming exam. Special knight status with a certifictae wil awarded to the highest score.
 
 #### User Story 3
-A local family is tracing their family tree and has managed to find their  medieval roots are firmly in the area. They want to hold a fun quiz night for friends and extended family and the website is a perfect way to get everyone to play along.
+A local family is tracing their family tree and has managed to find their  medieval roots are firmly in the local area. They want to hold a fun quiz night for friends and extended family and the website is a perfect way to get everyone to play along. Knights at the round table and fancy costume dress is being encouraged. 
 
 ### Favicon 
 The design of the favicon was simple. Black and white, with a silhouette. 
@@ -30,9 +29,10 @@ This is because even though the main page is blue and black, Newcastle is famous
 ## Bugs and Development 
 The project has took many twists and turns along the way. It was orginally a story game but this was a little too complex and convoluted to keep it going. Thus, th choice was made to abandon the text adventure for a more simple quiz game about the city instead. This was meant to be easier to write the code and easier to maintain and alter at a later stage. 
 
-The evolution of this prject has been frought wth difficulties. I had to get rid of the previous code for the JS and find a new way to implement thre quiz. 
+The evolution of this prject has been frought wth difficulties. I had to get rid of the previous code for the JS and find a new way to implement the quiz. 
 
-As the code seemingly didn't work and didn't move on to the next question I had to check the code that was a problem. Finding a new tutorial with the code in place and then customising it. 
+As the code seemingly didn't work and didn't move onto the next question. I had to check the specific code that was a problem. Finding a new tutorial with the code in place and then customising it. Unfortnately, the bugs or bug still perisisted and I had to use a different way to implement the quiz.  
+The original did have true and false boolean optins after the array of quesins ut this was siolified after finding a new quiz online with code and tutorial that simply used the correct answer input instead. 
 
 ### Wireframes and mock ups
 <img src="assets/images/wireframe/phone.jpg">
@@ -44,9 +44,18 @@ As the code seemingly didn't work and didn't move on to the next question I had 
 <img src="assets/images/mockup/ipad.jpeg">
 <img src="assets/images/mockup/phone.jpeg">
 
+### Aria labels
+
+The logo, title and divs for the quiz, answers/options section and the restart button have an alt label for accessibility. 
+
 ### Lighthouse results...
 <img src="assets/documentation/lighthousemob.jpeg">
 <img src="assets/documentation/lighthousedesktop.jpeg">
+
+
+After adding a restart button to the quiz I re-ran the Lighthouse tests and the result was for both mobile and desktop over 90 plus on each count. 
+![alt text](7FCB884F-BB01-42DE-BE96-D99CBB6386F3.jpeg)
+![alt text](E7FEC8AF-BF9F-4214-A899-67113BA2DF77.jpeg)
 
 For the desktop the rsults were very pleasing but not the same for the mobile version. 
 ### Jigsaw and W3 validator for HTML and CSS...
@@ -59,6 +68,23 @@ For the desktop the rsults were very pleasing but not the same for the mobile ve
 <img src="assets/documentation/jsvalidator-3.jpeg">
 
 ## References/citations
+
+The orginal quiz was sourced from WEB DEV SIMPLIFIED 
+"Build A Quiz App With JavaScript"
+https://www.youtube.com/watch?v=riDzcEQbX6k
+
+and the source code is here:
+https://github.com/WebDevSimplified/JavaScript-Quiz-App
+
+After failing to spot the bugs and the reason why it didn't work I decided to abandon this tutorial and found a new one instead...
+
+The new source code and quiz tutorial is:
+
+https://www.youtube.com/watch?v=gn0OaxS1OdY<br>
+https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
+// Building an interactive quiz with HTML, CSS and JavaScript //
+// by Code Picker //
+
 
 https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
 
@@ -107,14 +133,13 @@ https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s<br>
 CSS 
 https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php<br>
 "HTML & CSS for Absolute Beginners: Responsive images"
-https://www.youtube.com/watch?v=gn0OaxS1OdY<br>
-https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
-// Building an interactive quiz with HTML, CSS and JavaScript //
-// by Code Picker //
+
 // the following code for the restart button is taken and adapted from: geekforgeeks.org
 // https://www.geeksforgeeks.org/how-to-add-restart-button-in-javascript-quiz-app/
 // How to add Restart Button in JavaScript Quiz App
 // By GeeksforGeeks
+
+/// Note the above link (geeks for geeks) is broken BUT left in for integrity purposes - unable to source the orginal link-perhaps its now no longer there-I don't know.///
 // And also from:
 // Restart button code taken and adapted from Emmet suggestions and:
 // https://www.youtube.com/watch?v=zZRX51xcIAg
@@ -137,3 +162,4 @@ https://www.youtube.com/watch?v=zZRX51xcIAg
 "Building an Interactive Quiz App with JavaScript"
 By 
 Netcreed
+
