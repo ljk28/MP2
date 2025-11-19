@@ -54,8 +54,8 @@ The logo, title and divs for the quiz, answers/options section and the restart b
 
 
 After adding a restart button to the quiz I re-ran the Lighthouse tests and the result was for both mobile and desktop over 90 plus on each count. 
-![alt text](7FCB884F-BB01-42DE-BE96-D99CBB6386F3.jpeg)
-![alt text](E7FEC8AF-BF9F-4214-A899-67113BA2DF77.jpeg)
+<img src="-mob-2.jpeg">
+<img src="lighthouse-desktop-2.jpeg">
 
 For the desktop the rsults were very pleasing but not the same for the mobile version. 
 ### Jigsaw and W3 validator for HTML and CSS...
@@ -64,8 +64,17 @@ For the desktop the rsults were very pleasing but not the same for the mobile ve
 <img src="assets/documentation/cssvalidator2.jpeg">
 
 
+
 ### Javascript validator
 <img src="assets/documentation/jsvalidator-3.jpeg">
+After altering and adding the new code I ran the test again via jsvalidator and got these results...
+<img src="jsvalidator-2.jpg">
+
+### JShint
+
+Here are the results from JShint:
+<img src="jshint1.jpg">
+<img src="jshint2.jpg">
 
 ## References/citations
 
@@ -163,3 +172,4 @@ https://www.youtube.com/watch?v=zZRX51xcIAg
 By 
 Netcreed
 
+// Thank you for reading this read me // 
