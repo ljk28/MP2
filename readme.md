@@ -7,7 +7,7 @@ A simple quiz game to help tourists, teachers and and anyone else to traverse th
 The quiz tests the users local medieval knowledge.
 Seeing how much the tourists actualy remember, or the students whilst on a day trip outside of the classroom.
 
-Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on was the medieval era. I have regurlarly walked past part of old Newcastle on my way to work many times.
+Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on was the medieval era. I have regularly walked past part of old Newcastle on my way to work many times.
 
 The quiz game is a great way to help engage users learning and capacity to retain information. This is short term memory feedback for the teachers to check if their students are actually paying attention or not. 
 
@@ -32,7 +32,7 @@ The project has took many twists and turns along the way. It was orginally a sto
 The evolution of this prject has been frought wth difficulties. I had to get rid of the previous code for the JS and find a new way to implement the quiz. 
 
 As the code seemingly didn't work and didn't move onto the next question. I had to check the specific code that was a problem. Finding a new tutorial with the code in place and then customising it. Unfortnately, the bugs or bug still perisisted and I had to use a different way to implement the quiz.  
-The original did have true and false boolean optins after the array of quesins ut this was siolified after finding a new quiz online with code and tutorial that simply used the correct answer input instead. 
+The original did have true and false boolean optins after the array of quesins ut this was simplified after finding a new quiz online with code and tutorial that simply used the correct answer input instead. 
 
 ### Wireframes and mock ups
 <img src="assets/images/wireframe/phone.jpg">
@@ -46,7 +46,7 @@ The original did have true and false boolean optins after the array of quesins u
 
 ### Aria labels
 
-The logo, title and divs for the quiz, answers/options section and the restart button have an alt label for accessibility. 
+The logo, title and divs for the quiz, answers/options section and the restart button have an alt label for aria accessibility. 
 
 ### Lighthouse results...
 <img src="assets/documentation/lighthousemob.jpeg">
@@ -173,3 +173,4 @@ By
 Netcreed
 
 // Thank you for reading this read me // 
+
