@@ -2,37 +2,41 @@
 <img src="assets/images/final-logo.png">
 
 ## Rationale
-A simple quiz game to help tourists, teachers and and anyone else to traverse the medieval history of Newcastle upon Tyne.
+A simple quiz game to help tourists, teachers and anyone else to traverse the medieval history of Newcastle upon Tyne.
 
 The quiz tests the users local medieval knowledge.
 Seeing how much the tourists actualy remember, or the students whilst on a day trip outside of the classroom.
 
-Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on was the medieval era. I have regularly walked past part of old Newcastle on my way to work many times.
+Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on, was the medieval era. I have regularly walked past part of old Newcastle on my way to work many times.
 
 The quiz game is a great way to help engage users learning and capacity to retain information. This is short term memory feedback for the teachers to check if their students are actually paying attention or not. 
 
 
 ## User Stories 
 #### User Story 1
-A local tourist company would like an engaging app/website for their customers to enjoy and learn about medieval northeast England history. Nothing too long or difficult but enough to test the knowledge at the end of the tour with a prize draw for the most correct answers. 
+A local tourist company would like an engaging app/website for their customers to enjoy and learn about medieval north-east England history. Nothing too long or difficult but enough to test the knowledge at the end of the tour with a prize draw for the most correct answers. 
 #### User Story 2
-A school is currently covering medieval history in their curriculum and would like to use the website to help students revise for the upcoming exam. Special knight status with a certifictae wil awarded to the highest score.
+A school is currently covering medieval history in their curriculum and would like to use the website to help students revise for the upcoming exam. Special knight status with a certificate and badge will be awarded to the highest score.
 
 #### User Story 3
-A local family is tracing their family tree and has managed to find their  medieval roots are firmly in the local area. They want to hold a fun quiz night for friends and extended family and the website is a perfect way to get everyone to play along. Knights at the round table and fancy costume dress is being encouraged. 
+A local family is tracing their family tree/roots and has managed to find their  medieval roots are firmly in the local area. They want to hold a fun quiz night for friends and extended family and the website is a perfect way to get everyone to play along. Knights at the round table and fancy costume dress is being encouraged. 
 
 ### Favicon 
 The design of the favicon was simple. Black and white, with a silhouette. 
 <img src="assets/images/favicon.png">
-This is because even though the main page is blue and black, Newcastle is famous for their (Toon army)-Football club nickname which has black and white stripes. Newcastle upon Tyne also traded in in coal, which is black. Along with booming wool production and exporting (which is greyish white).
+This is because even though the main page is blue and black, Newcastle is famous for their (Toon army)-Football club nickname which has black and white stripes. Newcastle upon Tyne also traded in in coal, which is black. Along with booming wool production and exporting (which is grayish white).
 
 ## Bugs and Development 
-The project has took many twists and turns along the way. It was orginally a story game but this was a little too complex and convoluted to keep it going. Thus, th choice was made to abandon the text adventure for a more simple quiz game about the city instead. This was meant to be easier to write the code and easier to maintain and alter at a later stage. 
+The project has took many twists and turns along the way. It was orginally a story game but this was a little too complex and convoluted to keep it going. Thus, the choice was made to abandon the text adventure for a more simple quiz game about the city instead. This was meant to be easier to write code and easier to maintain and alter at a later stage. 
 
-The evolution of this prject has been frought wth difficulties. I had to get rid of the previous code for the JS and find a new way to implement the quiz. 
+The evolution of this project has been frought wth difficulties. I had to get rid of the previous code for the JS and find a new way to implement the quiz. 
 
-As the code seemingly didn't work and didn't move onto the next question. I had to check the specific code that was a problem. Finding a new tutorial with the code in place and then customising it. Unfortnately, the bugs or bug still perisisted and I had to use a different way to implement the quiz.  
-The original did have true and false boolean optins after the array of quesins ut this was simplified after finding a new quiz online with code and tutorial that simply used the correct answer input instead. 
+As the code seemingly didn't work and didn't move onto the next question, I had to check the specific code that was a problem. Unfortnately, the bugs or bug still perisisted and I had to use a different way to implement the quiz.  
+
+Finding a new tutorial with the code in place and then customising it. 
+The original did have true and false boolean options after the array of questions but this was simplified after finding a new quiz online with code and tutorial that simply used the correct answer input instead. 
+
+## Design and Layout
 
 ### Wireframes and mock ups
 <img src="assets/images/wireframe/phone.jpg">
@@ -44,9 +48,11 @@ The original did have true and false boolean optins after the array of quesins u
 <img src="assets/images/mockup/ipad.jpeg">
 <img src="assets/images/mockup/phone.jpeg">
 
+Please Note:The actual game has no instructions as seen in the wireframes and this part was not reflected in the final design.
+
 ### Aria labels
 
-The logo, title and divs for the quiz, answers/options section and the restart button have an alt label for aria accessibility. 
+The logo, title and divs for the quiz, answers/options section and the restart button have a label for aria accessibility. 
 
 ### Lighthouse results...
 <img src="assets/documentation/lighthousemob.jpeg">
@@ -57,13 +63,22 @@ After adding a restart button to the quiz I re-ran the Lighthouse tests and the 
 <img src="-mob-2.jpeg">
 <img src="lighthouse-desktop-2.jpeg">
 
-For the desktop the rsults were very pleasing but not the same for the mobile version. 
+For the desktop the results were very pleasing but not the same for the mobile version. 
 ### Jigsaw and W3 validator for HTML and CSS...
 <img src="assets/documentation/htmlvalidator2.jpeg">
 <img src="assets/documentation/htmlvalidator1.jpeg">
 <img src="assets/documentation/cssvalidator2.jpeg">
 
+Now with the new code in place and a revised and updated quiz...
 
+<img src="assets/documentation/html-validator-2-1.jpg">
+<img src="assets/documentation/html-validator-2.2.jpg">
+<img src="assets/documentation/html-validator-2.3.jpg">
+<img src="assets/documentation/html-validator-2.4.jpg">
+<img src="assets/documentation/html-validator-2.5.jpg">
+<img src="assets/documentation/css-validator-2.1.jpg">
+
+I fixed the incorrect alt label to aria-label
 
 ### Javascript validator
 <img src="assets/documentation/jsvalidator-3.jpeg">
@@ -113,14 +128,16 @@ https://co-curate.ncl.ac.uk/history-of-st-andrews-church-newcastle/
 
 https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
 
+Aria ref
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
+
+
 
 ### Tools used 
 <ul>
 <li>Canva</li>
 <li>Figma</li>
 <li>Jshint</li> 
-
-https://jshint.com/
 <li>VS Code</li>
 <li>CSS</li>
 <li>Jigsaw/W3 Validator</li>
