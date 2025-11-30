@@ -5,6 +5,9 @@
 // Building an interactive quiz with HTML, CSS and JavaScript //
 // by Code Picker //
 //
+  //replaces yourElement's text with "This is the new text" 
+
+
 const quizData = [
     {
       question: "Did Newcastle have knights?",
@@ -71,6 +74,7 @@ const quizData = [
     });
   }
   
+  
   function selectAnswer(e) {
     const selectedButton = e.target;
     const answer = quizData[currentQuestion].answer;
@@ -99,6 +103,7 @@ const quizData = [
   }
   
   showQuestion();
+
 
 
 // End of code taken and adapted from:
@@ -131,3 +136,8 @@ const quizData = [
 
   gsap.registerPlugin(TextPlugin) 
   
+gsap.to(questionElement, optionsElement,  {
+  duration: 2,
+  text: "This is the new text",
+  ease: "none",
+});
