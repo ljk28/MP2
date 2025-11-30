@@ -93,6 +93,11 @@ Here are the results from JShint:
 
 ## References/citations
 
+## Styling of button
+https://uiverse.io/buttons
+https://uiverse.io/Spacious74/horrible-horse-4
+
+
 The orginal quiz was sourced from WEB DEV SIMPLIFIED 
 "Build A Quiz App With JavaScript"
 https://www.youtube.com/watch?v=riDzcEQbX6k
