@@ -129,4 +129,10 @@ const quizData = [
     }
   }
 
-  
+  import { gsap } from "gsap";
+    
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
+import { SplitText } from "gsap/SplitText";
+import { TextPlugin } from "gsap/TextPlugin";
+
+gsap.registerPlugin(ScrambleTextPlugin,SplitText,TextPlugin);
