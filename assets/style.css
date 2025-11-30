@@ -6,7 +6,6 @@
 }
 
 
-
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
     max-width: 500rem;
@@ -107,39 +106,52 @@ font-family: 'Macondo'cursive;
    
 }
 
+/*/ Restart button code below taken and adapted from https://uiverse.io/Spacious74/horrible-horse-4 /*/ 
 
-.restart-btn:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Macondo', cursive;
-    font-size: 3rem;
-    color: #ffffff;
-    background-color: #ff0000;
-   
-} 
 .restart-btn {
-    display: flex;
+  display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Macondo', cursive;
-    font-size: 2rem;
-    color: #ffffff;
-    background-color: #38B6FF;
-    border-radius: 20px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 5rem;
-   
+  font-size: 1.4em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
 }
 
-.btn:hover {
-    background-color: #ff0000;
-    color: white;
-} 
+.container {
+  position: relative;
+  padding: 3px;
+  background: linear-gradient(90deg, #38B6FF, #000000);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container:active::before {
+  filter: blur(0.2em);
+}
+
+/* Body and main contet styling below  /*/ 
 
 body {
     display: flex;

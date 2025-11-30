@@ -5,7 +5,6 @@
 // Building an interactive quiz with HTML, CSS and JavaScript //
 // by Code Picker //
 //
-  //replaces yourElement's text with "This is the new text" 
 
 
 const quizData = [
@@ -134,10 +133,6 @@ const quizData = [
     }
   }
 
-  gsap.registerPlugin(TextPlugin) 
-  
-gsap.to(questionElement, optionsElement,  {
-  duration: 2,
-  text: "This is the new text",
-  ease: "none",
-});
+
+
+
