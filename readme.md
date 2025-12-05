@@ -147,7 +147,11 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attrib
 <li>CSS</li>
 <li>Jigsaw/W3 Validator</li>
 <li>javascript-validator</li>
+ ---
+ New additions below---
 <li>Jquery</li>
+<li>Emojidb.org</li>
+
 
 https://www.site24x7.com/tools
 
@@ -182,11 +186,15 @@ https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-th
 ### Using slide down/up/toggle function  
 https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
 
+
+
 # Using the Jquery Library
 To use the library I used the latest CDN in the head tag in the html page and 
 https://releases.jquery.com/
 
 
+#### Adding emojis...
+https://emojidb.org/medieval-emojis?utm_source=user_search
 
 Adding links to new pages using js in html pages...
 https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/
