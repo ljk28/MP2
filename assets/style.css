@@ -16,19 +16,15 @@
   font-style: normal;
  
 }
-/* Title styling for h1 adapted from https://www.shecodes.io/athena/462387-how-to-move-the-title-closer-to-the-top-of-a-page-using-css#:~:text=To%20move%20your%20title%20closer,adjust%20the%20top%20property%20accordingly.&text=Make%20sure%20to%20replace%20.,title%20element%20in%20your%20HTML.  /*/
-h1  {
-  position: absolute;
-   display: grid;
-    justify-content: center;
-    align-items: center;
-      text-align: center;
-  color: #000000;
-  font-style: bold;
-  top: -15em;
+
+h1 {
   display: flex;
-  font-family: 'Macondo', cursive;
+  justify-content: center;
+  position: static;
   font-size: 2.8rem;
+  font-family: 'Macondo', cursive;
+  color:#ffffff;
+
 }
 
 
@@ -74,6 +70,10 @@ font-family: 'Macondo'cursive;
 
 /* end of code taken from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2" */
 
+#Newcastle {
+  opacity: 2.5;
+}
+
  p {
   display: flex;
     justify-content: center;
@@ -114,22 +114,22 @@ font-family: 'Macondo'cursive;
     align-items: center;
     text-align: center;
     font-family: 'Macondo', cursive;
+    margin-right: 20px;
   font-size: 1.4em;
   padding: 0.6em 0.8em;
   border-radius: 0.5em;
   border: none;
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 2px 2px 3px #000000b4;
+  background-color: linear-gradient(#38B6FF, #000000);
+  box-shadow: 2px 2px 3px 2px #000000b4;
 }
 
 .container {
   position: relative;
-  padding: 3px;
+  padding: 5px;
   background: linear-gradient(90deg, #38B6FF, #000000);
   border-radius: 0.9em;
   transition: all 0.4s ease;
+  color: #000000;
 }
 
 .container::before {
@@ -144,11 +144,12 @@ font-family: 'Macondo'cursive;
 }
 
 .container:hover::before {
-  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  background: linear-gradient(90deg, #38B6FF, #000000);
   filter: blur(1.2em);
 }
 .container:active::before {
-  filter: blur(0.2em);
+    background: linear-gradient(90deg, #000000, #38B6FF);
+  filter: blur(0.5em);
 }
 
 /* Body and main contet styling below  /*/ 

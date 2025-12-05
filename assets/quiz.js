@@ -4,7 +4,6 @@
 // https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
 // Building an interactive quiz with HTML, CSS and JavaScript //
 // by Code Picker //
-//
 
 
 const quizData = [
@@ -52,7 +51,7 @@ const quizData = [
 
     // Add more questions here...
   ];
-  
+
   const questionElement = document.getElementById("question");
   const optionsElement = document.getElementById("options");
   const submitButton = document.getElementById("submit");
@@ -132,7 +131,4 @@ const quizData = [
       showQuestion(); 
     }
   }
-
-
-
-
+  
