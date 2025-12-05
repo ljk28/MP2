@@ -192,6 +192,7 @@ https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
 To use the library I used the latest CDN in the head tag in the html page and 
 https://releases.jquery.com/
 
+https://css-plus.com/2010/03/6-steps-to-take-if-your-jquery-is-not-working/
 
 #### Adding emojis...
 https://emojidb.org/medieval-emojis?utm_source=user_search

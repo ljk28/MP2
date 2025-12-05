@@ -55,7 +55,6 @@ h1 {
 #button {
   display: block;
   column-gap: 5em;
-   display: block;
   margin: 0 auto;
   padding: 10px 20px;
   border: none;
@@ -175,6 +174,33 @@ body {
     margin-top: 200px;
 }
 
+
+ /*/ Styling for jquery panel and divs */
+ #panel {
+  padding: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Macondo', cursive;
+  background-color: #ffffff;
+  border: solid 5px #2b1754;
+  opacity: 0.8;
+  position: sticky;
+ 
+}
+
+#panel, #flip {
+  display: flex;
+  justify-content: flex-start;
+   align-items: flex-start;
+  padding: 50px;
+  display: none;
+   position: relative;
+   border: solid 5px #2b1754;
+  
+}
 
 /* linear gradient background info taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
 /* https://css-tricks.com/a-complete-guide-to-css-media-queries/ */
