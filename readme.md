@@ -147,6 +147,7 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attrib
 <li>CSS</li>
 <li>Jigsaw/W3 Validator</li>
 <li>javascript-validator</li>
+<li>Jquery</li>
 
 https://www.site24x7.com/tools
 
@@ -177,6 +178,14 @@ https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-th
 // "Building an Interactive Quiz App with JavaScript"
 // By 
 // Netcreed
+
+### Using slide down/up/toggle function  
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
+
+# Using the Jquery Library
+To use the library I used the latest CDN in the head tag in the html page and 
+https://releases.jquery.com/
+
 
 
 Adding links to new pages using js in html pages...

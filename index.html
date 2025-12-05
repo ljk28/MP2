@@ -6,12 +6,47 @@
     <link rel="icon" type="text/css" href="assets/images/favicon.png">
     <link href="assets/style.css" rel="stylesheet">
     <title aria-label="Newcastle Quiz Game">Newcastle Quiz Game</title>
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- https://freesvg.org/knight-in-attack ref for knight-->
     <img aria-label="knight" src="assets/images/knighthorse2.svg" id="knight">
-    
-<h1 id="Newcastle" class="">Newcastle Quiz Game</h1>
+ 
+<p>Welcome to the quiz game!</p>
+<!-- Code taken and adapted from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down -->
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+  
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  font-family: 'Macondo', cursive;
+  background-color: #ffffff;
+  border: solid 1px #2b1754;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 📜
+<div id="flip">Click Me</div>
+📜
+<div id="panel">Welcome O Valiant Knight!
+    Test your knowledge by pressing the buttons below.
+Press the "restart" button if you wish to impress the king with a full score...
+</div>
+<!-- End of code here *//-->
+
 
    <div id="quiz" aria-label="quiz"></div>
             <div alt="question-section" id="question" class="split"></div>
@@ -21,6 +56,7 @@
             <button class="btn restart-btn" aria-label="restart button" id="Restart Quiz">Restart</button>
             </div>
         </div>
+
        <script src="assets/quiz.js"></script>
    </body>
 </html>
