@@ -176,31 +176,32 @@ body {
 
 
  /*/ Styling for jquery panel and divs */
- #panel {
+
+
+#panel, #flip {
   padding: 5px;
   display: flex;
-  justify-content: start;
-  align-items: flex-start;
+  font-display: block;
   text-align: center;
   font-size: xx-large;
   font-family: 'Macondo', cursive;
   background-color: #ffffff;
-  border: solid 5px #2b1754;
-  opacity: 0.8;
-  position: sticky;
+  border: solid 1px #2b1754;
+  
  
 }
 
-#panel, #flip {
-  display: flex;
-  justify-content: flex-start;
-   align-items: flex-start;
+#panel {
   padding: 50px;
-  display: none;
-   position: relative;
-   border: solid 5px #2b1754;
-  
+  display: flex;
+  margin-block-start: 50px;
+  float: left;
 }
+
+
+
+
+
 
 /* linear gradient background info taken and adapted from https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
 /* https://css-tricks.com/a-complete-guide-to-css-media-queries/ */
