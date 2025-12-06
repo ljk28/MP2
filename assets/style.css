@@ -237,11 +237,11 @@ body {
   }
 
   #panel  {
-      font-size: 0.5rem;
+      font-size: 1rem;
   }
 
    #flip {
-    font-size: 0.5rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     
@@ -263,10 +263,10 @@ body {
 
   }
 #panel {
-  font-size: 1rem;
+  font-size: 2rem;
 }
  #flip {
-    font-size: 1rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
    
@@ -285,10 +285,10 @@ body {
 
   }
   #panel {
-  font-size: 2rem;
+  font-size: 2.8rem;
 }
  #flip {
-    font-size: 2rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
   
@@ -307,7 +307,7 @@ body {
 
   }
   #panel {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
   #flip {
@@ -329,10 +329,10 @@ body {
 
   }
   #panel {
-  font-size: 4rem;
+  font-size: 3rem;
 }
  #flip {
-    font-size: 2rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
   }
