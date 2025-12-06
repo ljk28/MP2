@@ -189,24 +189,29 @@ body {
   border: solid 1px #2b1754;
   border-radius: 30px;
    padding: 20px;
-  width: 200px;
-  height: 40px;
-    background: linear-gradient(to right, black, #38B6FF, black);
+ 
+     background: linear-gradient(90deg, #38B6FF, #000000);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
  color: #ffffff;
+
 }
 
 #panel {
   padding: 50px;
   display: flex;
-  margin-block-start: 50px;
-  float: left;
+  justify-content: left;
+  position: absolute;
+  
+  margin-top: 5em;
+
    padding: 20px;
   width: 200px;
   height: 100vh;
   z-index: 1;
   float:inline-start;
+   
 }
-
 
 
 
