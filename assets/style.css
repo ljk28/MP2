@@ -189,7 +189,7 @@ body {
   border: solid 1px #2b1754;
   border-radius: 30px;
    padding: 20px;
- 
+
      background: linear-gradient(90deg, #38B6FF, #000000);
   border-radius: 0.9em;
   transition: all 0.4s ease;
@@ -235,6 +235,17 @@ body {
     font-size: 1.5rem;
 
   }
+
+  #panel  {
+      font-size: 0.5rem;
+  }
+
+   #flip {
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -251,6 +262,16 @@ body {
     font-size: 2rem;
 
   }
+#panel {
+  font-size: 1rem;
+}
+ #flip {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
 }   
 @media screen and (min-width: 900px) {
   #quiz {
@@ -263,6 +284,16 @@ body {
     font-size: 3rem;
 
   }
+  #panel {
+  font-size: 2rem;
+}
+ #flip {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  
+  }
+
 } 
 @media screen and (min-width: 1200px) {
   #quiz {
@@ -274,6 +305,16 @@ body {
   #options {
     font-size: 4rem;
 
+  }
+  #panel {
+  font-size: 3rem;
+}
+
+  #flip {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+   
   }
 }   
 @media screen and (min-width: 1500px) {
@@ -287,4 +328,13 @@ body {
     font-size: 5rem;
 
   }
+  #panel {
+  font-size: 4rem;
+}
+ #flip {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
 }
