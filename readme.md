@@ -194,6 +194,12 @@ https://releases.jquery.com/
 
 https://css-plus.com/2010/03/6-steps-to-take-if-your-jquery-is-not-working/
 
+
+## CSS
+
+Making rounded corners..
+https://www.w3schools.com/css/css3_borders.asp
+
 #### Adding emojis...
 https://emojidb.org/medieval-emojis?utm_source=user_search
 

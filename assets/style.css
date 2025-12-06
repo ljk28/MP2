@@ -120,6 +120,7 @@ font-family: 'Macondo'cursive;
   border: none;
   background-color: linear-gradient(#38B6FF, #000000);
   box-shadow: 2px 2px 3px 2px #000000b4;
+  opacity: 0.7;
 }
 
 .container {
@@ -185,10 +186,13 @@ body {
   text-align: center;
   font-size: xx-large;
   font-family: 'Macondo', cursive;
-  background-color: #ffffff;
   border: solid 1px #2b1754;
-  
- 
+  border-radius: 30px;
+   padding: 20px;
+  width: 200px;
+  height: 40px;
+    background: linear-gradient(to right, black, #38B6FF, black);
+ color: #ffffff;
 }
 
 #panel {
@@ -196,6 +200,11 @@ body {
   display: flex;
   margin-block-start: 50px;
   float: left;
+   padding: 20px;
+  width: 200px;
+  height: 100vh;
+  z-index: 1;
+  float:inline-start;
 }
 
 
