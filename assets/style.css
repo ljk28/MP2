@@ -179,7 +179,7 @@ body {
  /*/ Styling for jquery panel and divs */
 
 
-#panel, #flip {
+#panel {
 
   padding: 5px;
   display: flex;
@@ -198,12 +198,15 @@ overflow: auto;
 
 }
 
-#panel {
+ #flip {
   padding: 50px;
   display: flex;
   justify-content: left;
   position: absolute;
+
   
+  transition: all 0.4s ease;
+ color: #ffffff;
   margin-top: 5em;
 
    padding: 20px;
