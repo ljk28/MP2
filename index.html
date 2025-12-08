@@ -8,6 +8,7 @@
     <title aria-label="Newcastle Quiz Game">Newcastle Quiz Game</title>
        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
+<!-- Main section-->
 <body>
     <!-- https://freesvg.org/knight-in-attack ref for knight-->
     <img aria-label="knight" src="assets/images/knighthorse2.svg" id="knight">
@@ -21,19 +22,24 @@ $(document).ready(function(){
 });
 
 </script>
-<div hidden id="panel"> 
-  Welcome O Valiant Knight to the Newcastle Quiz Game!
-    Test your knowledge by pressing the buttons below.
-Press the "restart" button if you wish to impress the king with a full score.
-(Press the scroll to close and begin)...
-<div id="flip">
-<br>
-<br>
-<br>
- <div id="scroll">
-  <br>
 
-  📜</div>
+<div hidden id="panel"> 
+ 
+  Welcome O Valiant Knight to the Newcastle Quiz Game!
+    Test your knowledge by choosing one of the buttons.
+Press the "restart" button if you wish to impress the king with a full score.
+(Close the scroll to close and begin)...
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="flip">
+ <div id="scroll">
+  <div>
+    
+      <br>📜</div>
+  </div>
  </div>
 </div>
    <div id="quiz" aria-label="quiz"></div>
@@ -46,5 +52,6 @@ Press the "restart" button if you wish to impress the king with a full score.
         </div>
 
        <script src="assets/quiz.js"></script>
+       <footer></footer>
    </body>
 </html>

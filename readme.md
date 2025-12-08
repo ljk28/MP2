@@ -203,6 +203,9 @@ https://www.w3schools.com/css/css3_borders.asp
 Overspill...
 https://www.tutorialpedia.org/blog/div-text-spill-css/
 
+
+Divs to fit width of screen
+https://www.shecodes.io/athena/45974-how-to-make-a-div-fill-the-width-of-a-page
 #### Adding emojis...
 https://emojidb.org/medieval-emojis?utm_source=user_search
 
