@@ -108,6 +108,7 @@ font-family: 'Macondo'cursive;
 /*/ Restart button code below taken and adapted from https://uiverse.io/Spacious74/horrible-horse-4 /*/ 
 
 .restart-btn {
+  position:absolute;
   display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +138,7 @@ font-family: 'Macondo'cursive;
 
 .container::before {
   content: "";
-  position: absolute;
+  position: relative;
   inset: 0;
   margin: auto;
   border-radius: 0.9em;
@@ -194,7 +195,7 @@ overflow: auto;
   font-family: 'Macondo', cursive;
   
   border-radius: 30px;
-  position: relative;
+  position: absolute;
    width: 100vw;
   height: 100vh;
 font-size: 2em;
@@ -209,7 +210,7 @@ font-size: 2em;
  #flip {
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: relative;
   transition: all 0.4s ease;
  color: #ffffff;
   margin-top: 10em;
