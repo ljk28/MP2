@@ -16,21 +16,17 @@
 <script> 
 $(document).ready(function(){
   $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
+    $("#panel").slideUp("slow");
   });
-  
 });
+
 </script>
-
-
-
- <div id="flip">📜Click Me📜</div>
-
 <div hidden id="panel">Welcome O Valiant Knight!
     Test your knowledge by pressing the buttons below.
 Press the "restart" button if you wish to impress the king with a full score
-(Press 'click me' to close and begin)...
+(Press the scroll to close and begin)...
 
+ <div id="flip" class="scroll">📜</div>
 </div>
 
 
