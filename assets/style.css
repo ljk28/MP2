@@ -27,7 +27,7 @@
   font-size: 2.8rem;
   font-family: 'Macondo', cursive;
   color:#ffffff;
-  margin-top: 20rem;
+  margin-top: 5rem;
 }
 
 #options {
@@ -86,7 +86,7 @@
 .restart-btn {
   position: absolute;
   display: flex;
-    justify-content: left;
+    justify-content: top;
     align-items: left;
     isolation: isolate;
     text-align: right;
@@ -96,7 +96,8 @@
   border-radius: 0.7em;
   border: 3.5em;
   margin-left: -1200px;
-  margin-top: -80px;
+  margin-bottom: 800px;
+  margin-top: -200px;
   color: #000000;
 }
 
@@ -171,7 +172,6 @@ body {
     font-size: 2rem;
     color: linear-gradient(90deg, #38B6FF, #000000);
      isolation: isolate;
-     
      margin-bottom: 500px;
      z-index: 2;
 
@@ -207,9 +207,11 @@ body {
     font-size: 1.5rem;
 
   }
-#intructions [
-   font-size: 2em;
-]
+
+  .restart-btn {
+    isolation: isolate;
+    margin-bottom: 200px;
+  }
   
 }
 
