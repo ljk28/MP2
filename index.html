@@ -6,7 +6,8 @@
     <link rel="icon" type="text/css" href="assets/images/favicon.png">
     <link href="assets/style.css" rel="stylesheet">
     <title aria-label="Newcastle Quiz Game">Newcastle Quiz Game</title>
-       <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <!-- Main section-->
 <body>
@@ -14,34 +15,7 @@
     <img aria-label="knight" src="assets/images/knighthorse2.svg" id="knight">
 
 <!-- Code taken and adapted from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down -->
-<script> 
-$(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideUp("slow");
-  });
-});
 
-</script>
-
-<div hidden id="panel"> 
- 
-  Welcome O Valiant Knight to the Newcastle Quiz Game!
-    Test your knowledge by choosing one of the buttons.
-Press the "restart" button if you wish to impress the king with a full score.
-(Close the scroll to close and begin)...
-<br>
-<br>
-<br>
-<br>
-<br>
-<div id="flip">
- <div id="scroll">
-  <div>
-    
-      <br>📜</div>
-  </div>
- </div>
-</div>
    <div id="quiz" aria-label="quiz"></div>
             <div alt="question-section" id="question" class="split"></div>
             <div alt="options/answers" id="options" class="split">
@@ -50,7 +24,19 @@ Press the "restart" button if you wish to impress the king with a full score.
             <button class="btn restart-btn" aria-label="restart button" id="Restart Quiz">Restart</button>
             </div>
         </div>
-
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle("slow");
+  });
+});
+</script>
+<button id="instructions">Instructions</button><br><br>
+<div id="div1">Welcome O Valiant Knight to the Newcastle Medieval Quiz Game
+  Can you get all the correct answers and please the king?
+    Click the buttons to find out...
+  
+</div>
        <script src="assets/quiz.js"></script>
        <footer></footer>
    </body>

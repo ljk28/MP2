@@ -186,7 +186,9 @@ https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-th
 ### Using slide down/up/toggle function  
 https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
 
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadetoggle
 
+https://www.w3schools.com/jquery/jquery_fade.asp
 
 # Using the Jquery Library
 To use the library I used the latest CDN in the head tag in the html page and 
