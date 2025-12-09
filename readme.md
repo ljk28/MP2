@@ -183,6 +183,10 @@ https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-th
 // By 
 // Netcreed
 
+### HTML 
+Using link tags
+https://www.w3schools.com/html/html_links.asp
+
 ### Using slide down/up/toggle function  
 https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
 
