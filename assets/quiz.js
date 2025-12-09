@@ -131,4 +131,11 @@ const quizData = [
       showQuestion(); 
     }
   }
+
+
+  $(document).ready(function(){
+  $("button").click(function(){
+    $("#scroll").fadeToggle("slow");
+  });
+});
   
