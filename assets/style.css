@@ -17,17 +17,6 @@
  
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  position: static;
-  font-size: 2.8rem;
-  font-family: 'Macondo', cursive;
-  color:#ffffff;
-
-}
-
-
 
 #question {
   display: grid;
@@ -38,7 +27,7 @@ h1 {
   font-size: 2.8rem;
   font-family: 'Macondo', cursive;
   color:#ffffff;
-  margin-bottom: 15rem;
+  margin-top: 20rem;
 }
 
 #options {
@@ -58,33 +47,37 @@ h1 {
 
  p {
   display: flex;
+  position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Macondo', cursive;
     font-size: 3rem;
     color: #ffffff;
-    margin-top: 50em;
+   
 }
 
 #score-container {
     display: flex;
     justify-content: center;
+  position: relative;
     align-items: center;
     text-align: center;
     font-family: 'Macondo', cursive;
     font-size: 3rem;
     color: #ffffff;
-    margin-top: 10rem;
+    margin-top: -10rem;
+
 
 }
 
 #score {
     font-display: block;
     display: flex;
+    position: relative;
     font-size: 4rem;
     font-weight: bold;
-   margin-block-start: 2em;
+   
    
 }
 
@@ -93,24 +86,25 @@ h1 {
 .restart-btn {
   position: absolute;
   display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: left;
+    align-items: left;
+    isolation: isolate;
     text-align: right;
     font-family: 'Macondo', cursive;
-    margin-left: 900px;
-  font-size: 2em;
-  padding: 0.5em 0.5em;
-  border-radius: 0.5em;
+  font-size: 1.5em;
+  padding: 0.9em 0.5em;
+  border-radius: 0.7em;
   border: 3.5em;
- 
+  margin-left: -1200px;
+  margin-top: -80px;
+  color: #000000;
 }
 
 .restart-btn:hover {
   display: flex;
-  background-color:  #ff0000;
-  background: linear-gradient(90deg, #000000, #38B6FF);
+color: #000000;
+ font-size: 2em;
 }
-
 .container {
   position: relative;
   isolation: isolate;
@@ -134,14 +128,7 @@ h1 {
   transition: filter 0.4s ease;
 }
 
-.container:hover::before {
-  background: linear-gradient(90deg, #38B6FF, #000000);
-  filter: blur(1.2em);
-}
-.container:active::before {
-    background: linear-gradient(90deg, #000000, #38B6FF);
-  filter: blur(0.5em);
-}
+
 
 /* Body and main contet styling below  /*/ 
 
@@ -171,20 +158,22 @@ body {
 }
 
 
- /*/ Styling for jquery panel and divs */
-
-
-
+ /*/ Styling for jquery and divs */
 
 
 #instructions {
   display: flex;
-    justify-content:flex-start;
-    align-items: center;
+  position: absolute;
+    justify-content:center;
+    align-items: flex-start;
     text-align: center;
     font-family: 'Macondo', cursive;
-    font-size: 3rem;
-    color: #ffffff;
+    font-size: 2rem;
+    color: linear-gradient(90deg, #38B6FF, #000000);
+     isolation: isolate;
+     
+     margin-bottom: 500px;
+     z-index: 2;
 
 }
 
@@ -195,7 +184,7 @@ body {
     text-align: center;
     font-family: 'Macondo', cursive;
     font-size: 3rem;
-    background: linear-gradient(90deg, #38B6FF, #000000);
+        color: linear-gradient(90deg, #38B6FF, #000000);
 
 }
 

@@ -13,7 +13,6 @@
 <body>
     <!-- https://freesvg.org/knight-in-attack ref for knight-->
     <img aria-label="knight" src="assets/images/knighthorse2.svg" id="knight">
-
 <!-- Code taken and adapted from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down -->
 
    <div id="quiz" aria-label="quiz"></div>
@@ -27,14 +26,15 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("#div1").fadeToggle("slow");
+    $("#scroll").fadeToggle("slow");
   });
 });
 </script>
-<button id="instructions">Instructions</button><br><br>
-<div id="div1">Welcome O Valiant Knight to the Newcastle Medieval Quiz Game
+<button id="instructions">📜Instructions📜</button><br><br>
+<div id="scroll"><p>Welcome O Valiant Knight to the Newcastle Medieval Quiz Game.
+  <br>
   Can you get all the correct answers and please the king?
-    Click the buttons to find out...
+    Click on a scroll to close these instructions and start playing...</p></div>
   
 </div>
        <script src="assets/quiz.js"></script>
