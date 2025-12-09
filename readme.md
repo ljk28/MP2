@@ -200,6 +200,7 @@ https://releases.jquery.com/
 
 https://css-plus.com/2010/03/6-steps-to-take-if-your-jquery-is-not-working/
 
+https://www.geeksforgeeks.org/jquery/jquery-all-selector/
 
 ## CSS
 

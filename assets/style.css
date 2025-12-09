@@ -6,6 +6,15 @@
 }
 
 
+#logo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
 #quiz {
     max-width: 500rem;
@@ -230,11 +239,22 @@ h1 {
   }
   #scroll {
   text-align: center;
-  display: block;
+  display: flex;
   font-size: 120px;
+  position: relative;
+  
+  
+}
+
+#restart {
+  
+  text-align: center;
+  display: flex;
+  font-size: 20px;
   position: absolute;
-  
-  
+  opacity: 0.8;
+
+
 }
 
 
