@@ -81,6 +81,13 @@
    
 }
 
+#scroll {
+  text-align: center;
+  display: block;
+  font-size: 100px;
+  position: absolute;
+}
+
 /*/ Restart button code below taken and adapted from https://uiverse.io/Spacious74/horrible-horse-4 /*/ 
 
 .restart-btn {
