@@ -169,13 +169,14 @@ h1 {
   display: flex;
   position: absolute;
     justify-content:center;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     font-family: 'Macondo', cursive;
     font-size: 4rem;
     color: linear-gradient(90deg, #38B6FF, #000000);
      isolation: isolate;
      margin-bottom: 600px;
+  
 }
 
  /*/ Styling for jquery and divs */
