@@ -187,6 +187,9 @@ https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-th
 Using link tags
 https://www.w3schools.com/html/html_links.asp
 
+Creating an error page...
+https://www.geeksforgeeks.org/web-templates/create-a-404-page-using-html-and-css/
+
 ### Using slide down/up/toggle function  
 https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
 
