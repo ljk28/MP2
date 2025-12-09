@@ -121,10 +121,11 @@
 #castle {
     text-align: center;
   display: flex;
+  justify-content: center;
   font-size: 100px;
   position: absolute;
-  margin-top: -330px;
-  margin-left: -700px;
+  margin-top: -320px;
+  margin-right: 13em;
   height: 100px;
   width: 100px;
 
@@ -247,13 +248,13 @@ h1 {
 }
 
 #restart {
-  
+  justify-content: center;
   text-align: center;
   display: flex;
   font-size: 20px;
   position: absolute;
   opacity: 0.8;
-
+  
 
 }
 
