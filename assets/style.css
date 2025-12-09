@@ -165,6 +165,18 @@ body {
     
 }
 
+h1 {
+  display: flex;
+  position: absolute;
+    justify-content:center;
+    align-items: flex-start;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-size: 4rem;
+    color: linear-gradient(90deg, #38B6FF, #000000);
+     isolation: isolate;
+     margin-bottom: 600px;
+}
 
  /*/ Styling for jquery and divs */
 
@@ -176,11 +188,11 @@ body {
     align-items: flex-start;
     text-align: center;
     font-family: 'Macondo', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     color: linear-gradient(90deg, #38B6FF, #000000);
      isolation: isolate;
-     margin-bottom: 500px;
-     z-index: 2;
+     margin-bottom: 400px;
+     opacity: 0.7;
 
 }
 
