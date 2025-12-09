@@ -13,6 +13,7 @@
   width: 100%;
   height: auto;
   margin-bottom: 20px;
+  z-index: 1;
 }
 
 /* code below taken  and adapted from "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 */
@@ -115,20 +116,19 @@
 }
 /*/ Restart button code below taken and adapted from https://uiverse.io/Spacious74/horrible-horse-4 /*/ 
 
-#restart {
-  
-  text-align: center;
-  display: block;
-  font-size: 80px;
-  position: absolute;
-  margin-top: -300px;
-  margin-left: -700px;
-  opacity: 0.8;
 
+
+#castle {
+    text-align: center;
+  display: flex;
+  font-size: 100px;
+  position: absolute;
+  margin-top: -330px;
+  margin-left: -700px;
+  height: 100px;
+  width: 100px;
 
 }
-
-
 
 .container::before {
   content: "";
