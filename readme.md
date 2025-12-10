@@ -247,5 +247,13 @@ https://eslint.org/docs/latest/use/getting-started
 
 https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
 
+https://eslint.org/play/
+
+Here I ran the Javascript page through the ESlint online in the playground and it came back with the following...
+<img src="assets/documentation/eslint-1.jpeg">
+<img src="assets/documentation/eslint-2.jpeg">
+
+
+
 // Thank you for reading this read me // 
 
