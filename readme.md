@@ -151,6 +151,7 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attrib
  New additions below---
 <li>Jquery</li>
 <li>Emojidb.org</li>
+<li>ESlint.org</li>
 
 
 https://www.site24x7.com/tools
@@ -238,6 +239,11 @@ https://www.youtube.com/watch?v=zZRX51xcIAg
 "Building an Interactive Quiz App with JavaScript"
 By 
 Netcreed
+
+## Testing 
+https://eslint.org/docs/latest/use/getting-started
+
+
 
 // Thank you for reading this read me // 
 
