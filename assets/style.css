@@ -10,9 +10,9 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  width: 100%;
+  width: 12em;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 450px;
   z-index: 1;
 }
 
