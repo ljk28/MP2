@@ -152,6 +152,8 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attrib
 <li>Jquery</li>
 <li>Emojidb.org</li>
 <li>ESlint.org</li>
+<li>ESlint extension for VS Code</li>
+<li>NPM</li>
 
 
 https://www.site24x7.com/tools
@@ -243,7 +245,7 @@ Netcreed
 ## Testing 
 https://eslint.org/docs/latest/use/getting-started
 
-
+https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
 
 // Thank you for reading this read me // 
 
