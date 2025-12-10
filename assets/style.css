@@ -98,8 +98,7 @@
   position: absolute;
   margin-top: 200px;
   margin-left: -730px;
-  opacity: 0.8;
-  
+
 }
 
 
@@ -234,16 +233,13 @@ h1 {
 
   }
 
-  .restart-btn {
-    isolation: isolate;
-    margin-bottom: 200px;
-  }
   #scroll {
   text-align: center;
   display: flex;
-  font-size: 120px;
-  position: relative;
-  
+  justify-content: center;
+  font-size: 40px;
+  position: fixed;
+  isolation: isolate;
   
 }
 
@@ -251,10 +247,10 @@ h1 {
   justify-content: center;
   text-align: center;
   display: flex;
-  font-size: 20px;
-  position: absolute;
+  font-size: 40px;
+  position: fixed;
   opacity: 0.8;
-  
+    isolation: isolate;
 
 }
 
@@ -293,6 +289,17 @@ h1 {
   position: absolute;
   
   
+}
+
+#restart {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  position: fixed;
+  opacity: 0.8;
+  isolation: isolate;
+
 }
   
 }   
