@@ -48,8 +48,6 @@ The original did have true and false boolean options after the array of question
 <img src="assets/images/mockup/ipad.jpeg">
 <img src="assets/images/mockup/phone.jpeg">
 
-Please Note:The actual game has no instructions as seen in the wireframes and this part was not reflected in the final design.
-
 ### Aria labels
 
 The logo, title and divs for the quiz, answers/options section and the restart button have a label for aria accessibility. 
@@ -154,6 +152,7 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attrib
 <li>ESlint.org</li>
 <li>ESlint extension for VS Code</li>
 <li>NPM</li>
+<li>Lighthouse</li>
 
 
 https://www.site24x7.com/tools
@@ -253,6 +252,22 @@ Here I ran the Javascript page through the ESlint online in the playground and i
 <img src="assets/documentation/eslint-1.jpeg">
 <img src="assets/documentation/eslint-2.jpeg">
 
+### Lighthouse revisted
+
+Changing the game to two pages allowed me to have more freedom to have a whole page devoted to jquery. 
+I ran the lightouse test for mobile and got the following...
+
+<img src="">
+
+
+The performance score was relatively low. So I converted the logo image to be smaller. 
+
+It was recommended that "<'Link pre-load'>" tag be included to speed this up.
+
+
+https://dev.to/rajeshkumaryadavdotcom/speed-up-your-website-with-relpreload-166m
+
+https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=devtools#1_eliminate_resource_load_delay
 
 
 // Thank you for reading this read me // 
