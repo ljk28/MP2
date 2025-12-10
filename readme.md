@@ -257,7 +257,7 @@ Here I ran the Javascript page through the ESlint online in the playground and i
 Changing the game to two pages allowed me to have more freedom to have a whole page devoted to jquery. 
 I ran the lightouse test for mobile and got the following...
 
-<img src="">
+<img src="assets/documentation/lighthousemob.jpeg">
 
 
 The performance score was relatively low. So I converted the logo image to be smaller. 
@@ -268,6 +268,11 @@ It was recommended that "<'Link pre-load'>" tag be included to speed this up.
 https://dev.to/rajeshkumaryadavdotcom/speed-up-your-website-with-relpreload-166m
 
 https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=devtools#1_eliminate_resource_load_delay
+
+And the results for desktop were...
+
+<img src="assets/documentation/desktop2.1.jpeg">
+<img src="assets/documentation/desktop2.2.jpeg">
 
 
 // Thank you for reading this read me // 
