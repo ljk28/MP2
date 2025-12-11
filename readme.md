@@ -313,6 +313,19 @@ And the results for desktop were...
 <img src="assets/documentation/desktop2.1.jpeg">
 <img src="assets/documentation/desktop2.2.jpeg">
 
+### Validation Revisited
+As other automated checks were done again so too was the validation ckecks for css and html...
+
+<img src="assets/documentation/htmlvalidation2.1.jpeg">
+<img src="assets/documentation/htmlvalidation2.2.jpeg">
+<img src="assets/documentation/htmlvalidation2.3.jpeg">
+
+And for the game page...
+
+<img src="assets/documentation/gamepagevalidation1.jpeg">
+<img src="assets/documentation/gamepagevalidation2.jpeg">
+<img src="assets/documentation/gamepagevalidation3.jpeg">
+
 
 
 
