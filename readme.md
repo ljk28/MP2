@@ -127,8 +127,7 @@ Here are the results from JShint:
 <li>CSS</li>
 <li>Jigsaw/W3 Validator</li>
 <li>javascript-validator</li>
-
-https://www.site24x7.com/tools
+<li>https://www.site24x7.com/tools</li>
 
 <li>Apple notes for Mac</li>
 <li>Freesvg.org</li>
@@ -146,52 +145,71 @@ https://www.site24x7.com/tools
 <li>markdownguide.org</li>
 
 
-## Tutorials 
 
-"Build A Quiz App With JavaScript"
-https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s<br>
-CSS 
-https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php<br>
-"HTML & CSS for Absolute Beginners: Responsive images"
+## Testing 
 
-// the following code for the restart button is taken and adapted from: geekforgeeks.org
-// https://www.geeksforgeeks.org/how-to-add-restart-button-in-javascript-quiz-app/
-// How to add Restart Button in JavaScript Quiz App
-// By GeeksforGeeks
+### Automated and Manual Testing/Deployment
+ 
 
-/// Note the above link (geeks for geeks) is broken BUT left in for integrity purposes - unable to source the orginal link-perhaps its now no longer there-I don't know.///
-// And also from:
-// Restart button code taken and adapted from Emmet suggestions and:
-// https://www.youtube.com/watch?v=zZRX51xcIAg
-// "Building an Interactive Quiz App with JavaScript"
-// By 
-// Netcreed
+I have used and employed both methods of testing the website for scalability and responsiveness..
+I asked a friend to try out and see if the quiz worked, (I did this whilst the scroll icon/button was only accessible on a mobile phone tilted and turned landscape). This was clearly a responsiveness issue and a bug in the code that I had to fine-tune and debug in the stylesheet of CSS. 
 
-### HTML 
-Using link tags
-https://www.w3schools.com/html/html_links.asp
+After this, I fixed it via the correct media queries and asked them to check and see whether they could now see the scroll. Indeed, they could and (more importantly) at the normal orientation view of portait mode. My testing was manual, but yielded results (albeit not as fast as automated but very quick in human terms).
 
-Creating an error page...
-https://www.geeksforgeeks.org/web-templates/create-a-404-page-using-html-and-css/
+Having a human to test out the feel and scope of the website after deployment is crucial. This is for real life feedback and helps to spot any thing that a machine can't judge with the human eye.
+Automated testing is better for repititive tasks and on going development, such as a lint tool etc. 
 
-### Using slide down/up/toggle function  
-https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
+#### Automated testing and deployment
+<img src="assets/documentation/autolighthouse.jpeg">
 
-https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadetoggle
+In order for me to achieve maximum efficacy, I had to also run the testing through automated programs such as lighthouse and ESLint etc. This was much faster than manual and showed me where I could improve. 
+For example for performance scoring just minifying and compressing the logo would help to speed up loading times on mobile devices.
 
-https://www.w3schools.com/jquery/jquery_fade.asp
+Automated testing for this was done using Googles very own lighthouse.
 
-# Using the Jquery Library
-To use the library I used the latest CDN in the head tag in the html page and 
-https://releases.jquery.com/
 
-https://css-plus.com/2010/03/6-steps-to-take-if-your-jquery-is-not-working/
+Here I ran the Javascript page through the ESlint online in the playground and it came back with the following...
+<img src="assets/documentation/eslint-1.jpeg">
+<img src="assets/documentation/eslint-2.jpeg">
 
-https://www.geeksforgeeks.org/jquery/jquery-all-selector/
+### Lighthouse Revisted
+
+Changing the game to two pages allowed me to have more freedom to have a whole page devoted to jquery. 
+I ran the lightouse test for mobile and got the following...
+
+<img src="assets/documentation/lighthousemob.jpeg">
+
+
+The performance score was relatively low. So I converted the logo image to be smaller. 
+
+It was recommended that "<'Link pre-load'>" tag be included to speed this up.
+
+And the results for desktop were...
+
+<img src="assets/documentation/desktop2.1.jpeg">
+<img src="assets/documentation/desktop2.2.jpeg">
+
+### Validation Revisited
+As other automated checks were done again so too was the validation ckecks for css and html...
+
+<img src="assets/documentation/htmlvalidation2.1.jpeg">
+<img src="assets/documentation/htmlvalidation2.2.jpeg">
+<img src="assets/documentation/htmlvalidation2.3.jpeg">
+
+And for the game page...
+
+<img src="assets/documentation/gamepagevalidation1.jpeg">
+<img src="assets/documentation/gamepagevalidation2.jpeg">
+<img src="assets/documentation/gamepagevalidation3.jpeg">
+
+## Using the Jquery Library
+To use the library I used the latest CDN in the head tag within the html page.
 
 ### Testing the Jquery via automation JSHint
 
 <img src="assets/documentation/jshint1.jpeg">
+
+## References/citations
 
 ## CSS
 
@@ -226,77 +244,6 @@ https://www.youtube.com/watch?v=zZRX51xcIAg
 "Building an Interactive Quiz App with JavaScript"
 By 
 Netcreed
-
-## Testing 
-
-### Automated and Manual Testing/Deployment
-
-
-
-
-#### Manual Testing and Deployment 
-
-I have used and employed both methods of testing the website for scalability and responsiveness..
-I asked a friend to try out and see if the quiz worked, (I did this whilst the scroll icon/button was only accessible on a mobile phone tilted and turned landscape). This was clearly a responsiveness issue and a bug in the code that I had to fine-tune and debug in the stylesheet of CSS. 
-
-After this, I fixed it via the correct media queries and asked them to check and see whether they could now see the scroll. Indeed, they could and (more inportantly) at the normal orientation view of portait. My testing was manual, but yielded results (albeit not as fast as automated but very quick in human terms).
-
-#### Automated testing and deployment
-<img src="assets/documentation/autolighthouse.jpeg">
-
-In order for me to achieve maximum efficacy, I had to also run the testing through automated programs such as lighthouse and ESLint etc. This was much faster than manual and showed me where I could improve. 
-For example for performance scoring just minifying and compressing the logo would help to speed up loading times on mobile devices.
-
-Automated testing for this was done using Googles very own lighthouse...
-
-
-https://eslint.org/docs/latest/use/getting-started
-
-https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
-
-https://eslint.org/play/
-
-Here I ran the Javascript page through the ESlint online in the playground and it came back with the following...
-<img src="assets/documentation/eslint-1.jpeg">
-<img src="assets/documentation/eslint-2.jpeg">
-
-### Lighthouse Revisted
-
-Changing the game to two pages allowed me to have more freedom to have a whole page devoted to jquery. 
-I ran the lightouse test for mobile and got the following...
-
-<img src="assets/documentation/lighthousemob.jpeg">
-
-
-The performance score was relatively low. So I converted the logo image to be smaller. 
-
-It was recommended that "<'Link pre-load'>" tag be included to speed this up.
-
-
-https://dev.to/rajeshkumaryadavdotcom/speed-up-your-website-with-relpreload-166m
-
-https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=devtools#1_eliminate_resource_load_delay
-
-And the results for desktop were...
-
-<img src="assets/documentation/desktop2.1.jpeg">
-<img src="assets/documentation/desktop2.2.jpeg">
-
-### Validation Revisited
-As other automated checks were done again so too was the validation ckecks for css and html...
-
-<img src="assets/documentation/htmlvalidation2.1.jpeg">
-<img src="assets/documentation/htmlvalidation2.2.jpeg">
-<img src="assets/documentation/htmlvalidation2.3.jpeg">
-
-And for the game page...
-
-<img src="assets/documentation/gamepagevalidation1.jpeg">
-<img src="assets/documentation/gamepagevalidation2.jpeg">
-<img src="assets/documentation/gamepagevalidation3.jpeg">
-
-
-## References/citations
 
 ## Styling of button
 https://uiverse.io/buttons
@@ -338,10 +285,10 @@ https://co-curate.ncl.ac.uk/history-of-st-andrews-church-newcastle/
 
 https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
 
-Aria ref<br>
+#### Aria ref<br>
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
 
-### Testing
+#### Testing
 
 https://www.testrail.com/blog/manual-vs-automated-testing/
 
@@ -352,6 +299,64 @@ https://semaphore.io/blog/test-automation
 https://www.browserstack.com/guide/manual-vs-automated-testing-differences
 
 https://developer.chrome.com/docs/lighthouse/overview#:~:text=Lighthouse%20is%20an%20open%2Dsource,as%20how%20to%20fix%20it.
+
+https://dev.to/rajeshkumaryadavdotcom/speed-up-your-website-with-relpreload-166m
+
+https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=devtools#1_eliminate_resource_load_delay
+
+### Lint Tool
+https://eslint.org/docs/latest/use/getting-started
+
+https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
+
+https://eslint.org/play/
+
+#### Jquery
+https://releases.jquery.com/
+
+https://css-plus.com/2010/03/6-steps-to-take-if-your-jquery-is-not-working/
+
+https://www.geeksforgeeks.org/jquery/jquery-all-selector/
+
+## Tutorials 
+
+"Build A Quiz App With JavaScript"
+https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s<br>
+CSS 
+https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php<br>
+"HTML & CSS for Absolute Beginners: Responsive images"
+
+// the following code for the restart button is taken and adapted from: geekforgeeks.org
+// https://www.geeksforgeeks.org/how-to-add-restart-button-in-javascript-quiz-app/
+// How to add Restart Button in JavaScript Quiz App
+// By GeeksforGeeks
+
+/// Note the above link (geeks for geeks) is broken BUT left in for integrity purposes - unable to source the orginal link-perhaps its now no longer there-I don't know.///
+// And also from:
+// Restart button code taken and adapted from Emmet suggestions and:
+// https://www.youtube.com/watch?v=zZRX51xcIAg
+// "Building an Interactive Quiz App with JavaScript"
+// By 
+// Netcreed
+
+### HTML 
+Using link tags
+https://www.w3schools.com/html/html_links.asp
+
+Creating an error page...
+https://www.geeksforgeeks.org/web-templates/create-a-404-page-using-html-and-css/
+
+### Using slide down/up/toggle function  
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
+
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadetoggle
+
+https://www.w3schools.com/jquery/jquery_fade.asp
+
+
+
+
+
 
 // Thank you for reading this read me // 
 
