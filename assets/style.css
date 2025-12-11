@@ -282,17 +282,7 @@ max-width: 100%;
     font-size: 2rem;
 
   }
-#panel {
-  font-size: 3rem;
-    position:relative;
-}
- #flip {
-    font-size: 3rem;
-    display: flex;
-      position:relative;
-    justify-content: center;
-   
-  }
+
   #scroll {
 
   display: flex;
@@ -349,17 +339,6 @@ max-width: 100%;
     font-size: 3rem;
 
   }
-  #panel {
-  font-size: 4rem;
-    position:relative;
-}
- #flip {
-    font-size: 4rem;
-    display: flex;
-      position:relative;
-    justify-content: center;
-  
-  }
 
    #scroll {
 
@@ -404,19 +383,6 @@ max-width: 100%;
   }
   #options {
     font-size: 4rem;
-
-  }
-  #panel {
-  font-size: 4.5rem;
-    position:relative;
-}
-
-  #flip {
-    font-size: 4.5rem;
-    display: flex;
-      position:relative;
-    justify-content: center;
-   
   }
 
     #scroll {
@@ -430,6 +396,7 @@ max-width: 100%;
    margin-left: -700px;
   max-width: 100%;
 }
+
 }   
 @media screen and (min-width: 1500px) {
   #quiz {
@@ -441,16 +408,6 @@ max-width: 100%;
   #options {
     font-size: 5rem;
 
-  }
-  #panel {
-  font-size: 5rem;
-    position:relative;
-}
- #flip {
-    font-size: 5rem;
-    display: flex;
-      position:relative;
-    justify-content: center;
   }
 
     #scroll {
@@ -466,4 +423,3 @@ max-width: 100%;
 }
 
 }
-

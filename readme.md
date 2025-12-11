@@ -220,6 +220,7 @@ To use the library I used the latest CDN in the head tag within the html page.
 <li>NPM</li>
 <li>Lighthouse</li>
 <li>markdownguide.org</li>
+<li>Node.js</li>
 </ul>
 
 #### CSS
@@ -329,7 +330,7 @@ https://css-plus.com/2010/03/6-steps-to-take-if-your-jquery-is-not-working/
 
 https://www.geeksforgeeks.org/jquery/jquery-all-selector/
 
-## Tutorials 
+#### Tutorials 
 
 "Build A Quiz App With JavaScript"
 https://www.youtube.com/watch?v=riDzcEQbX6k&t=1419s<br>
@@ -354,19 +355,7 @@ https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-th
 Using link tags
 https://www.w3schools.com/html/html_links.asp
 
-Creating an error page...
-https://www.geeksforgeeks.org/web-templates/create-a-404-page-using-html-and-css/
-
-### Using slide down/up/toggle function  
-https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down
-
-https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadetoggle
-
-https://www.w3schools.com/jquery/jquery_fade.asp
-
-
-
-
+# End of Read me 
 
 
 // Thank you for reading this read me // 
