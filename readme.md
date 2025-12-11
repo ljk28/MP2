@@ -1,6 +1,23 @@
 ## Newcastle Castle Quiz Game
 <img src="assets/images/final-logo.png">
 
+# Table of Contents (TOC)
+1. [Rationale](#rationale)
+2. [User-Stories](#user-stories)
+    1. [User-story-1](#user-story-1)
+    2. [User-story-2](#user-story-2)
+    3. [User-story-3](#user-story-3)
+3. [Favicon](#favicon)
+4. [Bugs-and-Development](#bugs-and-development)
+5. [Design-and-Layout](#design-and-layout)
+6. [Wireframes-and-Mockups](#wireframes-and-mock-ups)
+    1. [Mock-ups](#mock-ups)
+    2. [Aria-labels](#aria-labels)
+7. []
+
+
+
+
 ## Rationale
 A simple quiz game to help tourists, teachers and anyone else to traverse the medieval history of Newcastle upon Tyne.
 
@@ -52,6 +69,7 @@ The original did have true and false boolean options after the array of question
 
 The logo, title and divs for the quiz, answers/options section and the restart button have a label for aria accessibility. 
 
+## Automated Testing
 ### Lighthouse results...
 <img src="assets/documentation/lighthousemob.jpeg">
 <img src="assets/documentation/lighthousedesktop.jpeg">
@@ -60,6 +78,8 @@ The logo, title and divs for the quiz, answers/options section and the restart b
 After adding a restart button to the quiz I re-ran the Lighthouse tests and the result was for both mobile and desktop over 90 plus on each count. 
 <img src="-mob-2.jpeg">
 <img src="lighthouse-desktop-2.jpeg">
+
+### Jigsaw (css) and html Validation
 
 For the desktop the results were very pleasing but not the same for the mobile version. 
 ### Jigsaw and W3 validator for HTML and CSS...
@@ -155,12 +175,11 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attrib
 https://www.site24x7.com/tools
 
 <li>Apple notes for Mac</li>
-<li>Freesvg</li>
+<li>Freesvg.org</li>
 <li>MDN Docs</li>
+<br>
 
-https://freesvg.org/
- ---
- New additions below---
+ ---New additions below---
 <li>Jquery</li>
 <li>Emojidb.org</li>
 <li>ESlint.org</li>
@@ -168,7 +187,6 @@ https://freesvg.org/
 <li>NPM</li>
 <li>Lighthouse</li>
 <li>markdownguide.org</li>
-
 
 
 ## Tutorials 
@@ -255,6 +273,8 @@ Netcreed
 ## Testing 
 
 ### Automated and Manual testing/deployment
+
+
 https://www.testrail.com/blog/manual-vs-automated-testing/
 
 https://www.geeksforgeeks.org/software-testing/software-engineering-differences-between-manual-and-automation-testing/
