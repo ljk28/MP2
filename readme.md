@@ -242,6 +242,30 @@ By
 Netcreed
 
 ## Testing 
+
+### Automated and Manual testing/deployment
+https://www.testrail.com/blog/manual-vs-automated-testing/
+
+https://www.browserstack.com/guide/manual-vs-automated-testing-differences
+
+https://developer.chrome.com/docs/lighthouse/overview#:~:text=Lighthouse%20is%20an%20open%2Dsource,as%20how%20to%20fix%20it.
+
+#### Manual Testing and Deployment 
+
+I have used and employed both methods of testing the website for scalability and responsiveness..
+I asked a friend to try out and see if the quiz worked, (I did this whilst the scroll icon/button was only accessible on a mobile phone tilted and turned landscape). This was clearly a responsiveness issue and a bug in the code that I had to fine-tune and debug in the stylesheet of CSS. 
+
+After this, I fixed it via the correct media queries and asked them to check and see whether they could now see the scroll. Indeed, they could and (more inportantly) at the normal orientation view of portait. My testing was manual, but yielded results (albeit not as fast as automated but very quick in human terms).
+
+#### Automated testing and deployment
+<img src="assets/documentation/autolighthouse.jpeg">
+
+I order for me to achieve maximum efficacy, I had to also run the testing through automated programs such as lighthouse and ESLint etc. This was much faster than manual and showed me where I could improve. 
+For example for performance scoring just minifying and compressing the logo would help to speed up loading times on mobile devices.
+
+Automated testing for this was done using Googles very own lighthouse...
+
+
 https://eslint.org/docs/latest/use/getting-started
 
 https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
@@ -273,6 +297,8 @@ And the results for desktop were...
 
 <img src="assets/documentation/desktop2.1.jpeg">
 <img src="assets/documentation/desktop2.2.jpeg">
+
+
 
 
 // Thank you for reading this read me // 
