@@ -250,6 +250,10 @@ Netcreed
 ### Automated and Manual testing/deployment
 https://www.testrail.com/blog/manual-vs-automated-testing/
 
+https://www.geeksforgeeks.org/software-testing/software-engineering-differences-between-manual-and-automation-testing/
+
+https://semaphore.io/blog/test-automation
+
 https://www.browserstack.com/guide/manual-vs-automated-testing-differences
 
 https://developer.chrome.com/docs/lighthouse/overview#:~:text=Lighthouse%20is%20an%20open%2Dsource,as%20how%20to%20fix%20it.
