@@ -26,14 +26,16 @@
     3. [Using-Jquery](#using-the-jquery-library)
 10. [References/Citations](#referencescitations)
     1. [Tools-used](#tools-used)
-    2. 
-    3. 
+    2. [CSS](#css)
+    3. [Adding-emojis](#adding-emojis)
+    4. [Tutorials](#tutorials)
+    5. [Html](#html)
 
 ## Rationale
 A simple quiz game to help tourists, teachers and anyone else to traverse the medieval history of Newcastle upon Tyne.
 
 The quiz tests the users local medieval knowledge.
-Seeing how much the tourists actualy remember, or the students whilst on a day trip outside of the classroom.
+Seeing how much the tourists actually remember, or the students whilst on a day trip outside of the classroom.
 
 Albeit, this could have been about a more recent history of the city but I decided the fun part to focus on, was the medieval era. I have regularly walked past part of old Newcastle on my way to work many times.
 
@@ -221,6 +223,8 @@ To use the library I used the latest CDN in the head tag within the html page.
 <li>Lighthouse</li>
 <li>markdownguide.org</li>
 <li>Node.js</li>
+<li>TinyPNG.org</li>
+<li>Shortpixel.com</li>
 </ul>
 
 #### CSS
@@ -351,9 +355,12 @@ https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-th
 // By 
 // Netcreed
 
-### HTML 
+#### HTML 
 Using link tags
 https://www.w3schools.com/html/html_links.asp
+
+#### Compressing files and Images
+https://www.shrink.media/product/tinypng-alternatives
 
 # End of Read me 
 
