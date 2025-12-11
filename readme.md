@@ -23,6 +23,7 @@
 9. [Testing-Revisited](#testing-revisited)
     1. [Lighthouse-revisited](#lighthouse-revisited)
     2. [Validation-Revisited](#validation-revisited)
+    3. [Using-Jquery](#using-the-jquery-library)
 10. [References/Citations](#referencescitations)
     1. [Tools-used](#tools-used)
     2. 
@@ -122,7 +123,7 @@ Here are the results from JShint:
 
 #### JSHint Revisited for the Jquery selector all function
 
->  **Note:** Please refer to the "Using the Jquery library" section for results
+>  **Note:** Please refer to the "Using Jquery" section for results
 
 
 
@@ -184,7 +185,7 @@ And for the game page...
 <img src="assets/documentation/gamepagevalidation2.jpeg">
 <img src="assets/documentation/gamepagevalidation3.jpeg">
 
-## Using the Jquery Library
+## Using Jquery
 To use the library I used the latest CDN in the head tag within the html page.
 
 ### Testing the Jquery via automation JSHint
