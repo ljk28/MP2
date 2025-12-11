@@ -13,10 +13,14 @@
 6. [Wireframes-and-Mockups](#wireframes-and-mock-ups)
     1. [Mock-ups](#mock-ups)
     2. [Aria-labels](#aria-labels)
-7. []
-
-
-
+7. [Automated-Testing](#automated-testing)
+    1. [lighthouse-results](#lighthouse-results)
+    2. [Validation](#validation)
+    3. [Jigsaw-and-W3-validator-for-HTML-and CSS...](#jigsaw-and-w3-validator-for-html-and-css)
+    4. [Javascript-validation](#javascript-validator)
+    5. [JSHint](#jshint)
+8. 
+9. [References/Citations](#referencescitations)
 
 ## Rationale
 A simple quiz game to help tourists, teachers and anyone else to traverse the medieval history of Newcastle upon Tyne.
@@ -76,10 +80,10 @@ The logo, title and divs for the quiz, answers/options section and the restart b
 
 
 After adding a restart button to the quiz I re-ran the Lighthouse tests and the result was for both mobile and desktop over 90 plus on each count. 
-<img src="-mob-2.jpeg">
+<img src="lighthouse-mob-2.jpeg">
 <img src="lighthouse-desktop-2.jpeg">
 
-### Jigsaw (css) and html Validation
+### Validation
 
 For the desktop the results were very pleasing but not the same for the mobile version. 
 ### Jigsaw and W3 validator for HTML and CSS...
@@ -114,54 +118,6 @@ Here are the results from JShint:
 >  **Note:** Please refer to the "Using the Jquery library" section for results
 
 
-
-## References/citations
-
-## Styling of button
-https://uiverse.io/buttons
-https://uiverse.io/Spacious74/horrible-horse-4
-
-
-The orginal quiz was sourced from WEB DEV SIMPLIFIED 
-"Build A Quiz App With JavaScript"
-https://www.youtube.com/watch?v=riDzcEQbX6k
-
-and the source code is here:
-https://github.com/WebDevSimplified/JavaScript-Quiz-App
-
-After failing to spot the bugs and the reason why it didn't work I decided to abandon this tutorial and found a new one instead...
-
-The new source code and quiz tutorial is:
-
-https://www.youtube.com/watch?v=gn0OaxS1OdY<br>
-https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
-// Building an interactive quiz with HTML, CSS and JavaScript //
-// by Code Picker //
-
-
-https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
-
-https://www.chroniclelive.co.uk/news/history/newcastles-gallowgate-strawberry-fields-public-10079019#:~:text=Newcastle%20West%20End%20played%20there,3Comments
-
-https://www.newcastlecastle.co.uk/
-
-https://blackfriarsrestaurant.co.uk/blackfriars-history/
-
-https://www.newcastle.gov.uk/our-city/history-and-heritage
-
-https://castellogy.com/history/medieval-money
-
-https://www.wilcuma.org.uk/the-history-of-northumberland-after-1066/medieval-newcastle/
-
-https://co-curate.ncl.ac.uk/history-of-st-andrews-church-newcastle/
-
-https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
-
-Aria ref
-https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
-
-
-
 ### Tools used 
 <ul>
 <li>Canva</li>
@@ -180,6 +136,7 @@ https://www.site24x7.com/tools
 <br>
 
  ---New additions below---
+
 <li>Jquery</li>
 <li>Emojidb.org</li>
 <li>ESlint.org</li>
@@ -272,18 +229,10 @@ Netcreed
 
 ## Testing 
 
-### Automated and Manual testing/deployment
+### Automated and Manual Testing/Deployment
 
 
-https://www.testrail.com/blog/manual-vs-automated-testing/
 
-https://www.geeksforgeeks.org/software-testing/software-engineering-differences-between-manual-and-automation-testing/
-
-https://semaphore.io/blog/test-automation
-
-https://www.browserstack.com/guide/manual-vs-automated-testing-differences
-
-https://developer.chrome.com/docs/lighthouse/overview#:~:text=Lighthouse%20is%20an%20open%2Dsource,as%20how%20to%20fix%20it.
 
 #### Manual Testing and Deployment 
 
@@ -347,7 +296,62 @@ And for the game page...
 <img src="assets/documentation/gamepagevalidation3.jpeg">
 
 
+## References/citations
 
+## Styling of button
+https://uiverse.io/buttons
+https://uiverse.io/Spacious74/horrible-horse-4
+
+
+The orginal quiz was sourced from WEB DEV SIMPLIFIED 
+"Build A Quiz App With JavaScript"
+https://www.youtube.com/watch?v=riDzcEQbX6k
+
+The source code is here:
+https://github.com/WebDevSimplified/JavaScript-Quiz-App
+
+After failing to spot the bugs and the reason why it didn't work I decided to abandon this tutorial and found a new one instead...
+
+The new source code and quiz tutorial is:
+
+https://www.youtube.com/watch?v=gn0OaxS1OdY<br>
+https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
+// Building an interactive quiz with HTML, CSS and JavaScript //
+// by Code Picker //
+
+
+https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
+
+https://www.chroniclelive.co.uk/news/history/newcastles-gallowgate-strawberry-fields-public-10079019#:~:text=Newcastle%20West%20End%20played%20there,3Comments
+
+https://www.newcastlecastle.co.uk/
+
+https://blackfriarsrestaurant.co.uk/blackfriars-history/
+
+https://www.newcastle.gov.uk/our-city/history-and-heritage
+
+https://castellogy.com/history/medieval-money
+
+https://www.wilcuma.org.uk/the-history-of-northumberland-after-1066/medieval-newcastle/
+
+https://co-curate.ncl.ac.uk/history-of-st-andrews-church-newcastle/
+
+https://www.historic-uk.com/HistoryMagazine/DestinationsUK/NewcastleuponTyne/
+
+Aria ref<br>
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
+
+### Testing
+
+https://www.testrail.com/blog/manual-vs-automated-testing/
+
+https://www.geeksforgeeks.org/software-testing/software-engineering-differences-between-manual-and-automation-testing/
+
+https://semaphore.io/blog/test-automation
+
+https://www.browserstack.com/guide/manual-vs-automated-testing-differences
+
+https://developer.chrome.com/docs/lighthouse/overview#:~:text=Lighthouse%20is%20an%20open%2Dsource,as%20how%20to%20fix%20it.
 
 // Thank you for reading this read me // 
 
