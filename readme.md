@@ -89,6 +89,12 @@ Here are the results from JShint:
 <img src="jshint1.jpg">
 <img src="jshint2.jpg">
 
+#### JSHint Revisited for the Jquery selector all function
+
+>  **Note:** Please refer to the "Using the Jquery library" section for results
+
+
+
 ## References/citations
 
 ## Styling of button
@@ -145,15 +151,6 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attrib
 <li>CSS</li>
 <li>Jigsaw/W3 Validator</li>
 <li>javascript-validator</li>
- ---
- New additions below---
-<li>Jquery</li>
-<li>Emojidb.org</li>
-<li>ESlint.org</li>
-<li>ESlint extension for VS Code</li>
-<li>NPM</li>
-<li>Lighthouse</li>
-
 
 https://www.site24x7.com/tools
 
@@ -162,6 +159,16 @@ https://www.site24x7.com/tools
 <li>MDN Docs</li>
 
 https://freesvg.org/
+ ---
+ New additions below---
+<li>Jquery</li>
+<li>Emojidb.org</li>
+<li>ESlint.org</li>
+<li>ESlint extension for VS Code</li>
+<li>NPM</li>
+<li>Lighthouse</li>
+<li>markdownguide.org</li>
+
 
 
 ## Tutorials 
@@ -284,7 +291,7 @@ Here I ran the Javascript page through the ESlint online in the playground and i
 <img src="assets/documentation/eslint-1.jpeg">
 <img src="assets/documentation/eslint-2.jpeg">
 
-### Lighthouse revisted
+### Lighthouse Revisted
 
 Changing the game to two pages allowed me to have more freedom to have a whole page devoted to jquery. 
 I ran the lightouse test for mobile and got the following...

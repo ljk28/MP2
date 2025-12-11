@@ -132,6 +132,7 @@ const quizData = [
     }
   }
 
+  /* Jquery Code */
 
   $(document).ready(function(){
   $("button").click(function(){
