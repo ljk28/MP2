@@ -13,14 +13,20 @@
 6. [Wireframes-and-Mockups](#wireframes-and-mock-ups)
     1. [Mock-ups](#mock-ups)
     2. [Aria-labels](#aria-labels)
-7. [Automated-Testing](#automated-testing)
+7. [Testing](#testing)
     1. [lighthouse-results](#lighthouse-results)
     2. [Validation](#validation)
     3. [Jigsaw-and-W3-validator-for-HTML-and CSS...](#jigsaw-and-w3-validator-for-html-and-css)
     4. [Javascript-validation](#javascript-validator)
     5. [JSHint](#jshint)
-8. 
-9. [References/Citations](#referencescitations)
+8. [Testing](#testing)
+9. [Testing-Revisited](#testing-revisited)
+    1. [Lighthouse-revisited](#lighthouse-revisited)
+    2. [Validation-Revisited](#validation-revisited)
+10. [References/Citations](#referencescitations)
+    1. [Tools-used](#tools-used)
+    2. 
+    3. 
 
 ## Rationale
 A simple quiz game to help tourists, teachers and anyone else to traverse the medieval history of Newcastle upon Tyne.
@@ -73,7 +79,8 @@ The original did have true and false boolean options after the array of question
 
 The logo, title and divs for the quiz, answers/options section and the restart button have a label for aria accessibility. 
 
-## Automated Testing
+## Testing
+
 ### Lighthouse results...
 <img src="assets/documentation/lighthousemob.jpeg">
 <img src="assets/documentation/lighthousedesktop.jpeg">
@@ -118,46 +125,21 @@ Here are the results from JShint:
 >  **Note:** Please refer to the "Using the Jquery library" section for results
 
 
-### Tools used 
-<ul>
-<li>Canva</li>
-<li>Figma</li>
-<li>Jshint</li> 
-<li>VS Code</li>
-<li>CSS</li>
-<li>Jigsaw/W3 Validator</li>
-<li>javascript-validator</li>
-<li>https://www.site24x7.com/tools</li>
 
-<li>Apple notes for Mac</li>
-<li>Freesvg.org</li>
-<li>MDN Docs</li>
-<br>
-
- ---New additions below---
-
-<li>Jquery</li>
-<li>Emojidb.org</li>
-<li>ESlint.org</li>
-<li>ESlint extension for VS Code</li>
-<li>NPM</li>
-<li>Lighthouse</li>
-<li>markdownguide.org</li>
-
-
-
-## Testing 
+## Testing Revisited
 
 ### Automated and Manual Testing/Deployment
  
-
 I have used and employed both methods of testing the website for scalability and responsiveness..
 I asked a friend to try out and see if the quiz worked, (I did this whilst the scroll icon/button was only accessible on a mobile phone tilted and turned landscape). This was clearly a responsiveness issue and a bug in the code that I had to fine-tune and debug in the stylesheet of CSS. 
 
 After this, I fixed it via the correct media queries and asked them to check and see whether they could now see the scroll. Indeed, they could and (more importantly) at the normal orientation view of portait mode. My testing was manual, but yielded results (albeit not as fast as automated but very quick in human terms).
 
-Having a human to test out the feel and scope of the website after deployment is crucial. This is for real life feedback and helps to spot any thing that a machine can't judge with the human eye.
-Automated testing is better for repititive tasks and on going development, such as a lint tool etc. 
+Having a person to test out the look and  feel and scope of the website after deployment is crucial. This is for real life feedback and helps to spot any thing that a machine can't judge.
+Automated testing is better for repetitive tasks and on-going development, such as a lint tool etc. 
+
+My project needed a Js library or API so I went with (after a kind suggestion) Jquery. 
+This is one of the simpler libraries/frameworks to learn and utilise.
 
 #### Automated testing and deployment
 <img src="assets/documentation/autolighthouse.jpeg">
@@ -172,7 +154,7 @@ Here I ran the Javascript page through the ESlint online in the playground and i
 <img src="assets/documentation/eslint-1.jpeg">
 <img src="assets/documentation/eslint-2.jpeg">
 
-### Lighthouse Revisted
+### Lighthouse Revisited
 
 Changing the game to two pages allowed me to have more freedom to have a whole page devoted to jquery. 
 I ran the lightouse test for mobile and got the following...
@@ -209,9 +191,37 @@ To use the library I used the latest CDN in the head tag within the html page.
 
 <img src="assets/documentation/jshint1.jpeg">
 
+
 ## References/citations
 
-## CSS
+### Tools used 
+<ul>
+<li>Canva</li>
+<li>Figma</li>
+<li>Jshint</li> 
+<li>VS Code</li>
+<li>CSS</li>
+<li>Jigsaw/W3 Validator</li>
+<li>javascript-validator</li>
+<li>https://www.site24x7.com/tools</li>
+
+<li>Apple notes for Mac</li>
+<li>Freesvg.org</li>
+<li>MDN Docs</li>
+<br>
+
+ ---New additions below---
+
+<li>Jquery</li>
+<li>Emojidb.org</li>
+<li>ESlint.org</li>
+<li>ESlint extension for VS Code</li>
+<li>NPM</li>
+<li>Lighthouse</li>
+<li>markdownguide.org</li>
+</ul>
+
+#### CSS
 
 Making rounded corners..
 https://www.w3schools.com/css/css3_borders.asp
@@ -245,7 +255,7 @@ https://www.youtube.com/watch?v=zZRX51xcIAg
 By 
 Netcreed
 
-## Styling of button
+#### Styling of button
 https://uiverse.io/buttons
 https://uiverse.io/Spacious74/horrible-horse-4
 
@@ -304,7 +314,7 @@ https://dev.to/rajeshkumaryadavdotcom/speed-up-your-website-with-relpreload-166m
 
 https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=devtools#1_eliminate_resource_load_delay
 
-### Lint Tool
+#### Lint Tool
 https://eslint.org/docs/latest/use/getting-started
 
 https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code
