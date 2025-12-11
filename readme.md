@@ -207,6 +207,10 @@ https://css-plus.com/2010/03/6-steps-to-take-if-your-jquery-is-not-working/
 
 https://www.geeksforgeeks.org/jquery/jquery-all-selector/
 
+### Testing the Jquery via automation JSHint
+
+<img src="assets/documentation/jshint1.jpeg">
+
 ## CSS
 
 Making rounded corners..
@@ -260,7 +264,7 @@ After this, I fixed it via the correct media queries and asked them to check and
 #### Automated testing and deployment
 <img src="assets/documentation/autolighthouse.jpeg">
 
-I order for me to achieve maximum efficacy, I had to also run the testing through automated programs such as lighthouse and ESLint etc. This was much faster than manual and showed me where I could improve. 
+In order for me to achieve maximum efficacy, I had to also run the testing through automated programs such as lighthouse and ESLint etc. This was much faster than manual and showed me where I could improve. 
 For example for performance scoring just minifying and compressing the logo would help to speed up loading times on mobile devices.
 
 Automated testing for this was done using Googles very own lighthouse...
